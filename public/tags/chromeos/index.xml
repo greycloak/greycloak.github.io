@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>chromeos on Greycloak</title>
-    <link>https://example.com/tags/chromeos/</link>
+    <link>https://greycloak.com/tags/chromeos/</link>
     <description>Recent content in chromeos on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 26 Oct 2018 10:09:56 +0530</lastBuildDate><atom:link href="https://example.com/tags/chromeos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Oct 2018 10:09:56 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/chromeos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChromeOS Shortcomings</title>
-      <link>https://example.com/post/2018-10-26-chromeos-shortcomings/</link>
+      <link>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</link>
       <pubDate>Fri, 26 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-26-chromeos-shortcomings/</guid>
+      <guid>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ Multiple Users - sign out There are two major problems with multiple users on Ch
     
     <item>
       <title>Fixing keyboard and mouse lag in Xorg (crouton)</title>
-      <link>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
+      <link>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
       <pubDate>Sat, 07 Jul 2018 03:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
+      <guid>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
       <description>
         
           

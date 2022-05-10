@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>envyx360 on Greycloak</title>
-    <link>https://example.com/tags/envyx360/</link>
+    <link>https://greycloak.com/tags/envyx360/</link>
     <description>Recent content in envyx360 on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Nov 2018 16:00:00 +0530</lastBuildDate><atom:link href="https://example.com/tags/envyx360/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Nov 2018 16:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/envyx360/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Patch the Ubuntu Kernel</title>
-      <link>https://example.com/post/2018-11-01-patch-ubuntu-kernel/</link>
+      <link>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</link>
       <pubDate>Thu, 01 Nov 2018 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-11-01-patch-ubuntu-kernel/</guid>
+      <guid>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Fix Occasional Freezing on the HP Envy X360</title>
-      <link>https://example.com/post/2018-10-31-fix-freezing-envyx360/</link>
+      <link>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</link>
       <pubDate>Wed, 31 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-31-fix-freezing-envyx360/</guid>
+      <guid>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</guid>
       <description>
         
           

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Greycloak</title>
-    <link>https://example.com/tags/linux/</link>
+    <link>https://greycloak.com/tags/linux/</link>
     <description>Recent content in linux on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 22 Feb 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Feb 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Should you npm install globally?</title>
-      <link>https://example.com/post/2019-02-22-should-you-npm-install-globally/</link>
+      <link>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</link>
       <pubDate>Fri, 22 Feb 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-02-22-should-you-npm-install-globally/</guid>
+      <guid>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@
     
     <item>
       <title>Getting touchscreen events working with Firefox</title>
-      <link>https://example.com/post/2019-02-01-firefox-with-touch/</link>
+      <link>https://greycloak.com/post/2019-02-01-firefox-with-touch/</link>
       <pubDate>Fri, 01 Feb 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-02-01-firefox-with-touch/</guid>
+      <guid>https://greycloak.com/post/2019-02-01-firefox-with-touch/</guid>
       <description>
         
           
@@ -45,10 +45,10 @@ On most linux distributions, the .desktop file is in /usr/local/share/applicatio
     
     <item>
       <title>Giving Archlinux Another Try</title>
-      <link>https://example.com/post/2019-01-29-giving-arch-another-try/</link>
+      <link>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</link>
       <pubDate>Tue, 29 Jan 2019 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-01-29-giving-arch-another-try/</guid>
+      <guid>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</guid>
       <description>
         
           
@@ -62,10 +62,10 @@ The plan was I wanted to draw, read, and play games on a computer while running 
     
     <item>
       <title>Install MariaDB in Debian Stretch</title>
-      <link>https://example.com/post/2018-12-21-install-mariadb-debian/</link>
+      <link>https://greycloak.com/post/2018-12-21-install-mariadb-debian/</link>
       <pubDate>Fri, 21 Dec 2018 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-12-21-install-mariadb-debian/</guid>
+      <guid>https://greycloak.com/post/2018-12-21-install-mariadb-debian/</guid>
       <description>
         
           
@@ -80,10 +80,10 @@ Step 1: update and install
     
     <item>
       <title>Patch the Ubuntu Kernel</title>
-      <link>https://example.com/post/2018-11-01-patch-ubuntu-kernel/</link>
+      <link>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</link>
       <pubDate>Thu, 01 Nov 2018 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-11-01-patch-ubuntu-kernel/</guid>
+      <guid>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</guid>
       <description>
         
           
@@ -96,10 +96,10 @@ Step 1: update and install
     
     <item>
       <title>Fix Occasional Freezing on the HP Envy X360</title>
-      <link>https://example.com/post/2018-10-31-fix-freezing-envyx360/</link>
+      <link>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</link>
       <pubDate>Wed, 31 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-31-fix-freezing-envyx360/</guid>
+      <guid>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</guid>
       <description>
         
           
@@ -113,10 +113,10 @@ I recently bought an HP Envy x360 13&amp;quot; with AMD Ryzen 5 and Vega 8 graph
     
     <item>
       <title>ChromeOS Shortcomings</title>
-      <link>https://example.com/post/2018-10-26-chromeos-shortcomings/</link>
+      <link>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</link>
       <pubDate>Fri, 26 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-26-chromeos-shortcomings/</guid>
+      <guid>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</guid>
       <description>
         
           
@@ -130,10 +130,10 @@ Multiple Users - sign out There are two major problems with multiple users on Ch
     
     <item>
       <title>Reinstall a broken MySQL 5.7 Ubuntu Xenial</title>
-      <link>https://example.com/post/2018-07-31-fix-broken-mysql-ubuntu/</link>
+      <link>https://greycloak.com/post/2018-07-31-fix-broken-mysql-ubuntu/</link>
       <pubDate>Tue, 31 Jul 2018 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-31-fix-broken-mysql-ubuntu/</guid>
+      <guid>https://greycloak.com/post/2018-07-31-fix-broken-mysql-ubuntu/</guid>
       <description>
         
           
@@ -148,10 +148,10 @@ Error:
     
     <item>
       <title>Quick Tip: Set up a Reverse SSH Tunnel</title>
-      <link>https://example.com/post/2009-06-10-reverse-ssh-tunnel/</link>
+      <link>https://greycloak.com/post/2009-06-10-reverse-ssh-tunnel/</link>
       <pubDate>Wed, 10 Jun 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-06-10-reverse-ssh-tunnel/</guid>
+      <guid>https://greycloak.com/post/2009-06-10-reverse-ssh-tunnel/</guid>
       <description>
         
           
@@ -164,10 +164,10 @@ Error:
     
     <item>
       <title>Swapping Control &amp; Alt in Linux</title>
-      <link>https://example.com/post/2009-04-19-swap-control-alt-linux/</link>
+      <link>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</link>
       <pubDate>Sun, 19 Apr 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-04-19-swap-control-alt-linux/</guid>
+      <guid>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</guid>
       <description>
         
           
@@ -181,10 +181,10 @@ Feel free to copy the contents to a file called .
     
     <item>
       <title>Quick Tip: Sort by directory size in linux</title>
-      <link>https://example.com/post/2009-02-14-sort-by-directory/</link>
+      <link>https://greycloak.com/post/2009-02-14-sort-by-directory/</link>
       <pubDate>Sat, 14 Feb 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-02-14-sort-by-directory/</guid>
+      <guid>https://greycloak.com/post/2009-02-14-sort-by-directory/</guid>
       <description>
         
           
@@ -199,10 +199,10 @@ Try this:
     
     <item>
       <title>Ten Things I Love About ArchLinux</title>
-      <link>https://example.com/post/2007-05-31-ten-things-archlinux/</link>
+      <link>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</link>
       <pubDate>Thu, 31 May 2007 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2007-05-31-ten-things-archlinux/</guid>
+      <guid>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</guid>
       <description>
         
           

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>archlinux on Greycloak</title>
-    <link>https://example.com/tags/archlinux/</link>
+    <link>https://greycloak.com/tags/archlinux/</link>
     <description>Recent content in archlinux on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 16 Apr 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Rmagick 3.1 on Archlinux</title>
-      <link>https://example.com/post/2019-04-16-rmagick-arch-linux/</link>
+      <link>https://greycloak.com/post/2019-04-16-rmagick-arch-linux/</link>
       <pubDate>Tue, 16 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-04-16-rmagick-arch-linux/</guid>
+      <guid>https://greycloak.com/post/2019-04-16-rmagick-arch-linux/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Giving Archlinux Another Try</title>
-      <link>https://example.com/post/2019-01-29-giving-arch-another-try/</link>
+      <link>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</link>
       <pubDate>Tue, 29 Jan 2019 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-01-29-giving-arch-another-try/</guid>
+      <guid>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</guid>
       <description>
         
           
@@ -43,10 +43,10 @@ The plan was I wanted to draw, read, and play games on a computer while running 
     
     <item>
       <title>Ten Things I Love About ArchLinux</title>
-      <link>https://example.com/post/2007-05-31-ten-things-archlinux/</link>
+      <link>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</link>
       <pubDate>Thu, 31 May 2007 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2007-05-31-ten-things-archlinux/</guid>
+      <guid>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</guid>
       <description>
         
           

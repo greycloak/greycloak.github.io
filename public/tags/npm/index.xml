@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>npm on Greycloak</title>
-    <link>https://example.com/tags/npm/</link>
+    <link>https://greycloak.com/tags/npm/</link>
     <description>Recent content in npm on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 22 Feb 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Feb 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Should you npm install globally?</title>
-      <link>https://example.com/post/2019-02-22-should-you-npm-install-globally/</link>
+      <link>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</link>
       <pubDate>Fri, 22 Feb 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-02-22-should-you-npm-install-globally/</guid>
+      <guid>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</guid>
       <description>
         
           

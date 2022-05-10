@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Greycloak</title>
-    <link>https://example.com/categories/blog/</link>
+    <link>https://greycloak.com/categories/blog/</link>
     <description>Recent content in blog on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 01 May 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Benefits of Cassette Culture</title>
-      <link>https://example.com/post/2022-05-01-benefits-cassette-culture/</link>
+      <link>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</link>
       <pubDate>Sun, 01 May 2022 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2022-05-01-benefits-cassette-culture/</guid>
+      <guid>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Giving Archlinux Another Try</title>
-      <link>https://example.com/post/2019-01-29-giving-arch-another-try/</link>
+      <link>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</link>
       <pubDate>Tue, 29 Jan 2019 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-01-29-giving-arch-another-try/</guid>
+      <guid>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</guid>
       <description>
         
           
@@ -43,10 +43,10 @@ The plan was I wanted to draw, read, and play games on a computer while running 
     
     <item>
       <title>ChromeOS Shortcomings</title>
-      <link>https://example.com/post/2018-10-26-chromeos-shortcomings/</link>
+      <link>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</link>
       <pubDate>Fri, 26 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-26-chromeos-shortcomings/</guid>
+      <guid>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</guid>
       <description>
         
           
@@ -60,10 +60,10 @@ Multiple Users - sign out There are two major problems with multiple users on Ch
     
     <item>
       <title>Ten Things I Love About ArchLinux</title>
-      <link>https://example.com/post/2007-05-31-ten-things-archlinux/</link>
+      <link>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</link>
       <pubDate>Thu, 31 May 2007 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2007-05-31-ten-things-archlinux/</guid>
+      <guid>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</guid>
       <description>
         
           

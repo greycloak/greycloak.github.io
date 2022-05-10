@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Greycloak</title>
-    <link>https://example.com/post/</link>
+    <link>https://greycloak.com/post/</link>
     <description>Recent content in Posts on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 01 May 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Benefits of Cassette Culture</title>
-      <link>https://example.com/post/2022-05-01-benefits-cassette-culture/</link>
+      <link>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</link>
       <pubDate>Sun, 01 May 2022 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2022-05-01-benefits-cassette-culture/</guid>
+      <guid>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Using Hugo page bundles</title>
-      <link>https://example.com/post/bundle/</link>
+      <link>https://greycloak.com/post/bundle/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/bundle/</guid>
+      <guid>https://greycloak.com/post/bundle/</guid>
       <description>
         
           
@@ -45,10 +45,10 @@ Hugo Clarity supports the use of leaf bundles, which are any directories within 
     
     <item>
       <title>Using Notices</title>
-      <link>https://example.com/post/notices/</link>
+      <link>https://greycloak.com/post/notices/</link>
       <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/notices/</guid>
+      <guid>https://greycloak.com/post/notices/</guid>
       <description>
         
           
@@ -63,10 +63,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Install Rmagick 3.1 on Archlinux</title>
-      <link>https://example.com/post/2019-04-16-rmagick-arch-linux/</link>
+      <link>https://greycloak.com/post/2019-04-16-rmagick-arch-linux/</link>
       <pubDate>Tue, 16 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-04-16-rmagick-arch-linux/</guid>
+      <guid>https://greycloak.com/post/2019-04-16-rmagick-arch-linux/</guid>
       <description>
         
           
@@ -79,10 +79,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/markdown-syntax/</link>
+      <link>https://greycloak.com/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/markdown-syntax/</guid>
+      <guid>https://greycloak.com/post/markdown-syntax/</guid>
       <description>
         
           
@@ -95,10 +95,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Rich Content</title>
-      <link>https://example.com/post/rich-content/</link>
+      <link>https://greycloak.com/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/rich-content/</guid>
+      <guid>https://greycloak.com/post/rich-content/</guid>
       <description>
         
           
@@ -111,10 +111,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://example.com/post/placeholder-text/</link>
+      <link>https://greycloak.com/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/placeholder-text/</guid>
+      <guid>https://greycloak.com/post/placeholder-text/</guid>
       <description>
         
           
@@ -127,10 +127,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/post/math-typesetting/</link>
+      <link>https://greycloak.com/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/math-typesetting/</guid>
+      <guid>https://greycloak.com/post/math-typesetting/</guid>
       <description>
         
           
@@ -143,10 +143,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Emoji Support</title>
-      <link>https://example.com/post/emoji-support/</link>
+      <link>https://greycloak.com/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/emoji-support/</guid>
+      <guid>https://greycloak.com/post/emoji-support/</guid>
       <description>
         
           
@@ -159,10 +159,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Should you npm install globally?</title>
-      <link>https://example.com/post/2019-02-22-should-you-npm-install-globally/</link>
+      <link>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</link>
       <pubDate>Fri, 22 Feb 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-02-22-should-you-npm-install-globally/</guid>
+      <guid>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</guid>
       <description>
         
           
@@ -176,10 +176,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>Getting touchscreen events working with Firefox</title>
-      <link>https://example.com/post/2019-02-01-firefox-with-touch/</link>
+      <link>https://greycloak.com/post/2019-02-01-firefox-with-touch/</link>
       <pubDate>Fri, 01 Feb 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-02-01-firefox-with-touch/</guid>
+      <guid>https://greycloak.com/post/2019-02-01-firefox-with-touch/</guid>
       <description>
         
           
@@ -194,10 +194,10 @@ On most linux distributions, the .desktop file is in /usr/local/share/applicatio
     
     <item>
       <title>Giving Archlinux Another Try</title>
-      <link>https://example.com/post/2019-01-29-giving-arch-another-try/</link>
+      <link>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</link>
       <pubDate>Tue, 29 Jan 2019 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2019-01-29-giving-arch-another-try/</guid>
+      <guid>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</guid>
       <description>
         
           
@@ -211,10 +211,10 @@ The plan was I wanted to draw, read, and play games on a computer while running 
     
     <item>
       <title>Install MariaDB in Debian Stretch</title>
-      <link>https://example.com/post/2018-12-21-install-mariadb-debian/</link>
+      <link>https://greycloak.com/post/2018-12-21-install-mariadb-debian/</link>
       <pubDate>Fri, 21 Dec 2018 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-12-21-install-mariadb-debian/</guid>
+      <guid>https://greycloak.com/post/2018-12-21-install-mariadb-debian/</guid>
       <description>
         
           
@@ -229,10 +229,10 @@ Step 1: update and install
     
     <item>
       <title>Patch the Ubuntu Kernel</title>
-      <link>https://example.com/post/2018-11-01-patch-ubuntu-kernel/</link>
+      <link>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</link>
       <pubDate>Thu, 01 Nov 2018 16:00:00 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-11-01-patch-ubuntu-kernel/</guid>
+      <guid>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</guid>
       <description>
         
           
@@ -245,10 +245,10 @@ Step 1: update and install
     
     <item>
       <title>Fix Occasional Freezing on the HP Envy X360</title>
-      <link>https://example.com/post/2018-10-31-fix-freezing-envyx360/</link>
+      <link>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</link>
       <pubDate>Wed, 31 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-31-fix-freezing-envyx360/</guid>
+      <guid>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</guid>
       <description>
         
           
@@ -262,10 +262,10 @@ I recently bought an HP Envy x360 13&amp;quot; with AMD Ryzen 5 and Vega 8 graph
     
     <item>
       <title>ChromeOS Shortcomings</title>
-      <link>https://example.com/post/2018-10-26-chromeos-shortcomings/</link>
+      <link>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</link>
       <pubDate>Fri, 26 Oct 2018 10:09:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-10-26-chromeos-shortcomings/</guid>
+      <guid>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</guid>
       <description>
         
           
@@ -279,10 +279,10 @@ Multiple Users - sign out There are two major problems with multiple users on Ch
     
     <item>
       <title>Reinstall a broken MySQL 5.7 Ubuntu Xenial</title>
-      <link>https://example.com/post/2018-07-31-fix-broken-mysql-ubuntu/</link>
+      <link>https://greycloak.com/post/2018-07-31-fix-broken-mysql-ubuntu/</link>
       <pubDate>Tue, 31 Jul 2018 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-31-fix-broken-mysql-ubuntu/</guid>
+      <guid>https://greycloak.com/post/2018-07-31-fix-broken-mysql-ubuntu/</guid>
       <description>
         
           
@@ -297,10 +297,10 @@ Error:
     
     <item>
       <title>Fixing keyboard and mouse lag in Xorg (crouton)</title>
-      <link>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
+      <link>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
       <pubDate>Sat, 07 Jul 2018 03:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
+      <guid>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
       <description>
         
           
@@ -313,10 +313,10 @@ Error:
     
     <item>
       <title>Setting up PostgreSQL on Debian Buster</title>
-      <link>https://example.com/post/2018-07-07-debian-postgresql-setup/</link>
+      <link>https://greycloak.com/post/2018-07-07-debian-postgresql-setup/</link>
       <pubDate>Sat, 07 Jul 2018 03:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-07-debian-postgresql-setup/</guid>
+      <guid>https://greycloak.com/post/2018-07-07-debian-postgresql-setup/</guid>
       <description>
         
           
@@ -331,10 +331,10 @@ First, let&#39;s make sure your system is up to date:
     
     <item>
       <title>Setting up Debian Buster for Ruby Development</title>
-      <link>https://example.com/post/2018-07-06-debian-ruby-setup/</link>
+      <link>https://greycloak.com/post/2018-07-06-debian-ruby-setup/</link>
       <pubDate>Fri, 06 Jul 2018 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-06-debian-ruby-setup/</guid>
+      <guid>https://greycloak.com/post/2018-07-06-debian-ruby-setup/</guid>
       <description>
         
           
@@ -350,10 +350,10 @@ First, let&#39;s make sure your system is up to date:
     
     <item>
       <title>Quick Tip: Exporting to CSV from Rails console</title>
-      <link>https://example.com/post/2013-10-08-export-rails-to-csv/</link>
+      <link>https://greycloak.com/post/2013-10-08-export-rails-to-csv/</link>
       <pubDate>Tue, 08 Oct 2013 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2013-10-08-export-rails-to-csv/</guid>
+      <guid>https://greycloak.com/post/2013-10-08-export-rails-to-csv/</guid>
       <description>
         
           
@@ -366,10 +366,10 @@ First, let&#39;s make sure your system is up to date:
     
     <item>
       <title>Quick Tip: Set up a Reverse SSH Tunnel</title>
-      <link>https://example.com/post/2009-06-10-reverse-ssh-tunnel/</link>
+      <link>https://greycloak.com/post/2009-06-10-reverse-ssh-tunnel/</link>
       <pubDate>Wed, 10 Jun 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-06-10-reverse-ssh-tunnel/</guid>
+      <guid>https://greycloak.com/post/2009-06-10-reverse-ssh-tunnel/</guid>
       <description>
         
           
@@ -382,10 +382,10 @@ First, let&#39;s make sure your system is up to date:
     
     <item>
       <title>Swapping Control &amp; Alt in Linux</title>
-      <link>https://example.com/post/2009-04-19-swap-control-alt-linux/</link>
+      <link>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</link>
       <pubDate>Sun, 19 Apr 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-04-19-swap-control-alt-linux/</guid>
+      <guid>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</guid>
       <description>
         
           
@@ -399,10 +399,10 @@ Feel free to copy the contents to a file called .
     
     <item>
       <title>Quick Tip: Sort by directory size in linux</title>
-      <link>https://example.com/post/2009-02-14-sort-by-directory/</link>
+      <link>https://greycloak.com/post/2009-02-14-sort-by-directory/</link>
       <pubDate>Sat, 14 Feb 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-02-14-sort-by-directory/</guid>
+      <guid>https://greycloak.com/post/2009-02-14-sort-by-directory/</guid>
       <description>
         
           
@@ -417,10 +417,10 @@ Try this:
     
     <item>
       <title>Ten Things I Love About ArchLinux</title>
-      <link>https://example.com/post/2007-05-31-ten-things-archlinux/</link>
+      <link>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</link>
       <pubDate>Thu, 31 May 2007 10:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2007-05-31-ten-things-archlinux/</guid>
+      <guid>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</guid>
       <description>
         
           

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xorg on Greycloak</title>
-    <link>https://example.com/tags/xorg/</link>
+    <link>https://greycloak.com/tags/xorg/</link>
     <description>Recent content in xorg on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 07 Jul 2018 03:34:56 +0530</lastBuildDate><atom:link href="https://example.com/tags/xorg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jul 2018 03:34:56 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/xorg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing keyboard and mouse lag in Xorg (crouton)</title>
-      <link>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
+      <link>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
       <pubDate>Sat, 07 Jul 2018 03:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
+      <guid>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Swapping Control &amp; Alt in Linux</title>
-      <link>https://example.com/post/2009-04-19-swap-control-alt-linux/</link>
+      <link>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</link>
       <pubDate>Sun, 19 Apr 2009 23:34:56 +0530</pubDate>
       
-      <guid>https://example.com/post/2009-04-19-swap-control-alt-linux/</guid>
+      <guid>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</guid>
       <description>
         
           
