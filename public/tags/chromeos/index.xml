@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chromeos on Greycloak</title>
+    <link>https://example.com/tags/chromeos/</link>
+    <description>Recent content in chromeos on Greycloak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 10:09:56 +0530</lastBuildDate><atom:link href="https://example.com/tags/chromeos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChromeOS Shortcomings</title>
+      <link>https://example.com/post/2018-10-26-chromeos-shortcomings/</link>
+      <pubDate>Fri, 26 Oct 2018 10:09:56 +0530</pubDate>
+      
+      <guid>https://example.com/post/2018-10-26-chromeos-shortcomings/</guid>
+      <description>
+        
+          
+            I&#39;ve been using ChromeOS as my main development machine for a while now. At first I logged in under my personal gmail and used Crouton for development, but after Crostini I decided to separate out my work and personal items. Here are a few things that still bother me and why I might go back to a full linux environment:
+Multiple Users - sign out There are two major problems with multiple users on Chrome.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fixing keyboard and mouse lag in Xorg (crouton)</title>
+      <link>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</link>
+      <pubDate>Sat, 07 Jul 2018 03:34:56 +0530</pubDate>
+      
+      <guid>https://example.com/post/2018-07-07-fix-keyboard-lag-crouton/</guid>
+      <description>
+        
+          
+            I&#39;ve been using a Chromebook for development lately. On the side, I like to load up games and play using the linux installation I have loaded up via Crouton. Crouton is amazing and what we&#39;ll be using until native linux comes baked in, but it has some issues. There are a number of &amp;quot;targets&amp;quot; for displaying a desktop environment including xiwi and xorg. Here, I&#39;ll discuss those two targets and tell you how to fix performance in the latter.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

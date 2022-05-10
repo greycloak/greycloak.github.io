@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rmagick on Greycloak</title>
+    <link>https://example.com/tags/rmagick/</link>
+    <description>Recent content in rmagick on Greycloak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 16 Apr 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/tags/rmagick/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Rmagick 3.1 on Archlinux</title>
+      <link>https://example.com/post/2019-04-16-rmagick-arch-linux/</link>
+      <pubDate>Tue, 16 Apr 2019 12:00:00 +0530</pubDate>
+      
+      <guid>https://example.com/post/2019-04-16-rmagick-arch-linux/</guid>
+      <description>
+        
+          
+            So you&#39;re doing ruby development in 2019, eh? Good for you! Despite the rumors, Ruby on Rails is still a great way to get a project up and running. I managed to get the core of https://www.rpgbuddy.com up and running in a week. One of my clients is also still running Ruby and I need to upgrade them from an old 2.3.3 version to 2.6.2. With that I decided to update a bunch of old gems too.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>npm on Greycloak</title>
+    <link>https://example.com/tags/npm/</link>
+    <description>Recent content in npm on Greycloak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 22 Feb 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://example.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Should you npm install globally?</title>
+      <link>https://example.com/post/2019-02-22-should-you-npm-install-globally/</link>
+      <pubDate>Fri, 22 Feb 2019 12:00:00 +0530</pubDate>
+      
+      <guid>https://example.com/post/2019-02-22-should-you-npm-install-globally/</guid>
+      <description>
+        
+          
+            I was transitioning this blog from using Jekyll to Hexo. After comparing both, I feel I made the right choice. However, I almost started off on the wrong foot. Being unfamiliar with Node.js, I was reviewing the Hexo install instructions and the first thing it tells you is to install via:
+1npm install hexo-cli -g I&#39;m running on Archlinux and got a permission denied error when I tried that. It&#39;s likely because I used pacman (the Archlinux package manager) to install node and/or npm.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
