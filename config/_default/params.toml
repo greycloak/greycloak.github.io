@@ -117,6 +117,9 @@ websiteDomain = "greycloak.com" # domain name of your website, most cases same a
 # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
 # scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
 
+[statcounter_analytics]
+enable = true # To enable statcounter analytics change to `true`.
+
 [matomo_analytics]
 enable = false # To enable matomo analytics change to `true`.
 websiteDomain = "greycloak.com" # Set the domain name of your website, in most cases same as your base URL this is required.
