@@ -5,15 +5,17 @@ date:   2022-05-01 12:00:00 +0530
 categories: blog
 author:     vince
 thumbnail: https://d30y9cdsu7xlg0.cloudfront.net/png/2175-200.png
+
+featureImage: https://images.esellerpro.com/2131/I/160/128/lrgscaleIMG_4843.JPG
+featureImageAlt: 'The Sony D6C Professional Walkman'
+featureImageCap: 'The Sony D6C Professional Walkman is one of the best for recording cassette tapes'
+
 tags:
  - cassette
  - nostalgia
 ---
 
-<img src="https://images.esellerpro.com/2131/I/160/128/lrgscaleIMG_4843.JPG" />
-
-
-I'll admit, I'm GenX and I grew up on a budget. That meant listening to the radio and trying to record my favorite song onto a cassette tape so I could listen to it in my parent's car or on a cheap portable cassette player on the way to school. When CD's came on the scene, like many others, I jumped on board eager to get perfect sound quality and leave behind clumsy track skipping.
+I'm GenX and I grew up on a budget. That meant listening to the radio and trying to record my favorite song onto a cassette tape so I could listen to it in my parent's car or on a cheap portable cassette player on the way to school. When CD's came on the scene, like many others, I jumped on board eager to get perfect sound quality and leave behind clumsy track skipping.
 
 I did miss creating my own mixes but that was eventually solved in the late 90s with MP3s, CD Ripping, and burning. 
 
@@ -34,6 +36,8 @@ I countered my friend and asked him if he'd heard of an artist that I liked. Whe
 
 ## 2. Limited space means more deliberate choices
 Cassette Tapes come in various forms but they generally vary in length from 60 minutes to 110 minutes. Generally the longer the tape the more fragile it is. Regardless, you don't have storage measured in gigabytes, you have it stored in minutes. Precious few at that, so your choices matter as how you choose. So give it some thought. Choose what you want and then get them on a side of a tape in a combination that creates the most enjoyment with the least amount of wasted space. It's fun and a bit of artistry in itself to pull off a good mix this way.
+
+![Weighing Scales](https://pngimg.com/uploads/scales/scales_PNG24.png "You must carefully weigh your choices and balance the time creating your tape with listening to it")
 
 ## 3. Listen free, fast, and without distractions
 I don't always carry a walkman with me. I generally use it when I'm on an airplane and have time to zone out without worrying about missing an important text message or alert. But, any time I open my app the process is something like:
