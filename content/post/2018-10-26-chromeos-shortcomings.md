@@ -4,7 +4,7 @@ title:  "ChromeOS Shortcomings"
 date:   2018-10-26 10:09:56 +0530
 categories: blog
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/chromeos.jpg
 tags:
  - linux
  - chromeos

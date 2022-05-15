@@ -4,7 +4,7 @@ title:  "Swapping Control & Alt in Linux"
 date:   2009-04-19 23:34:56 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/linux.png
 tags:
  - linux
  - xorg

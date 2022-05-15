@@ -4,7 +4,7 @@ title:  "Quick Tip: Exporting to CSV from Rails console"
 date:   2013-10-08 10:34:56 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/rails.png
 tags:
  - ruby
  - rails

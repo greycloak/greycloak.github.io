@@ -4,7 +4,7 @@ title:  "Fixing keyboard and mouse lag in Xorg (crouton)"
 date:   2018-07-07 03:34:56 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/linux.png
 tags:
  - chromeos
  - crouton

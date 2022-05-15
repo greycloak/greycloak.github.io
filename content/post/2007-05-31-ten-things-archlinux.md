@@ -4,7 +4,7 @@ title:  "Ten Things I Love About ArchLinux"
 date:   2007-05-31 10:34:56 +0530
 categories: blog
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/ArchLinux.png
 tags:
  - archlinux
  - linux

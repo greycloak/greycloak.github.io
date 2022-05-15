@@ -4,7 +4,7 @@ title:  "Quick Tip: Set up a Reverse SSH Tunnel"
 date:   2009-06-10 23:34:56 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/linux.png
 tags:
  - linux
  - ssh

@@ -4,7 +4,7 @@ title:  "Patch the Ubuntu Kernel"
 date:   2018-11-01 16:00:00 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/ubuntu.png
 tags:
  - linux
  - ubuntu

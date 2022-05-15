@@ -4,6 +4,7 @@ title:  "Install Rmagick 3.1 on Archlinux"
 date:   2019-04-16 12:00:00 +0530
 categories: tutorial
 author:     vince
+thumbnail: /images/ArchLinux.png
 tags:
  - archlinux
  - rmagick

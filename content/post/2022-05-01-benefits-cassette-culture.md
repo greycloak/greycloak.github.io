@@ -61,6 +61,9 @@ Ah, yes but can you record over that CD Mix?
 
 With tapes you can. So whether you find your recording levels off or your taste in songs have changed, you can repurpose that cassette tape and give it new life. You of course, can just buy another cassette and leave it as-is, but the choice is yours.
 
+{{< youtube _dgJ4hRHBiw >}}
+
+
 ## 5. Immutable
 That leads to my last point. The music is immutable as long as you want it to be. "But you just said you can rerecord over it, so what gives?" That is definitely true. What I mean is that you are in complete control. You can pick off the write tabs to make sure it can't be changed but one thing is for sure, no 3rd party is going to change it either. 
 

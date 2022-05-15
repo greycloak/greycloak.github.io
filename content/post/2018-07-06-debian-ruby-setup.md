@@ -4,7 +4,7 @@ title:  "Setting up Debian Buster for Ruby Development"
 date:   2018-07-06 23:34:56 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/ruby.png
 tags:
  - debian
  - ruby

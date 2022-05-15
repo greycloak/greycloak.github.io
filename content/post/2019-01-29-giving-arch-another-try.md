@@ -4,7 +4,7 @@ title:  "Giving Archlinux Another Try"
 date:   2019-01-29 16:00:00 +0530
 categories: blog
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/ArchLinux.png
 tags:
  - linux
  - archlinux

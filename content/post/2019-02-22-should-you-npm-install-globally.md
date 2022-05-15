@@ -4,6 +4,7 @@ title:  "Should you npm install globally?"
 date:   2019-02-22 12:00:00 +0530
 categories: tutorial
 author:     vince
+thumbnail: /images/npm.png
 tags:
  - nodejs
  - npm

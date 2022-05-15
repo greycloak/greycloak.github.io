@@ -4,7 +4,7 @@ title:  "Install MariaDB in Debian Stretch"
 date:   2018-12-21 16:00:00 +0530
 categories: tutorial
 author:     vince
-image:      /images/posts/linux-image.jpg
+thumbnail: /images/mariadb.png
 tags:
  - linux
  - debian
