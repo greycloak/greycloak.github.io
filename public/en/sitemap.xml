@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://greycloak.com/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -15,17 +15,17 @@
                 href="https://greycloak.com/"
                 />
   </url><url>
-    <loc>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
-  </url><url>
     <loc>https://greycloak.com/categories/blog/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/tags/cassette/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://greycloak.com/post/2022-06-12-70s-mix/</loc>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/categories/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -38,13 +38,13 @@
                 />
   </url><url>
     <loc>https://greycloak.com/tags/nostalgia/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/post/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/tags/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
+    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -55,6 +55,9 @@
                 hreflang="en"
                 href="https://greycloak.com/tags/"
                 />
+  </url><url>
+    <loc>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</loc>
+    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>

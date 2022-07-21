@@ -121,7 +121,7 @@ I recently bought an HP Envy x360 13&amp;quot; with AMD Ryzen 5 and Vega 8 graph
           
             I&#39;ve noticed that particularly in Ubuntu Xenial, an apt-upgrade to mysql 5.7 fails. A standard re-install doesn&#39;t work for me so I&#39;ve resorted to more extreme methods to get my install working. This is only suitable for development, mind you. Please do not attempt in production without full backups and supervision.
 Error:
- Setting up mysql-server-5.7 (5.7.12-0ubuntu1) ... Job for mysql.service failed because the control process exited with error code. See &#34;
+Setting up mysql-server-5.7 (5.7.12-0ubuntu1) ... Job for mysql.service failed because the control process exited with error code. See &#34;
           
           
         
