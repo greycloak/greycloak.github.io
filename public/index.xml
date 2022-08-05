@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Aug 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joplin CLI on Raspberry Pi 4</title>
+      <link>https://greycloak.com/post/2022-08-05-joplin-cli/</link>
+      <pubDate>Fri, 05 Aug 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://greycloak.com/post/2022-08-05-joplin-cli/</guid>
+      <description>
+        
+          
+            I&#39;ve been searching for a way to keep my notes and todos organized. Over the years I&#39;ve tried some interesting solutions like Evernote, Google Tasks, and even Task Warrior. All of them have their pros and cons but I&#39;ve recently really liked the flexibility and ease of use of Joplin.
+The screenshots will show you that it&#39;s got a complete Graphical User Interface and is usable across most operating systems including Linux so if you want to do that, by all means check it out.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Cassette Mix: 70&#39;s Mix 1</title>
       <link>https://greycloak.com/post/2022-06-12-70s-mix/</link>
