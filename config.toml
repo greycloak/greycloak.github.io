@@ -1,3 +1,7 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://greycloak.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[params]
+site = 'https://greycloak.com'
+# hosturl for sharing
