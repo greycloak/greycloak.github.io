@@ -6,10 +6,10 @@ categories: blog
 author:     vince
 thumbnail: https://d30y9cdsu7xlg0.cloudfront.net/png/2175-200.png
 
-featureImage: https://images.esellerpro.com/2131/I/160/128/lrgscaleIMG_4843.JPG
+featureImage: /images/posts/d6c.jpg
 featureImageAlt: 'The Sony D6C Professional Walkman'
 featureImageCap: 'The Sony D6C Professional Walkman is one of the best for recording cassette tapes'
-shareImage: https://images.esellerpro.com/2131/I/160/128/lrgscaleIMG_4843.JPG
+shareImage: /images/posts/d6c.jpg
 
 tags:
  - cassette
