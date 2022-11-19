@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://greycloak.com/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -15,11 +15,8 @@
                 href="https://greycloak.com/"
                 />
   </url><url>
-    <loc>https://greycloak.com/categories/blog/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
-  </url><url>
     <loc>https://greycloak.com/categories/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -31,23 +28,20 @@
                 href="https://greycloak.com/categories/"
                 />
   </url><url>
-    <loc>https://greycloak.com/post/2022-08-05-joplin-cli/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <loc>https://greycloak.com/tags/firefox/</loc>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/tags/linux/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://greycloak.com/tags/manjaro/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <loc>https://greycloak.com/post/2022-11-19-firefox-address-bar/</loc>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/post/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://greycloak.com/tags/raspberrypi/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/tags/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -58,6 +52,21 @@
                 hreflang="en"
                 href="https://greycloak.com/tags/"
                 />
+  </url><url>
+    <loc>https://greycloak.com/categories/tutorial/</loc>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://greycloak.com/categories/blog/</loc>
+    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://greycloak.com/post/2022-08-05-joplin-cli/</loc>
+    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://greycloak.com/tags/manjaro/</loc>
+    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://greycloak.com/tags/raspberrypi/</loc>
+    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/tags/cassette/</loc>
     <lastmod>2022-06-12T12:00:00+05:30</lastmod>
@@ -86,9 +95,6 @@
     <loc>https://greycloak.com/tags/ruby/</loc>
     <lastmod>2019-04-16T12:00:00+05:30</lastmod>
   </url><url>
-    <loc>https://greycloak.com/categories/tutorial/</loc>
-    <lastmod>2019-04-16T12:00:00+05:30</lastmod>
-  </url><url>
     <loc>https://greycloak.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -100,9 +106,6 @@
   </url><url>
     <loc>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</loc>
     <lastmod>2019-02-22T12:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://greycloak.com/tags/firefox/</loc>
-    <lastmod>2019-02-01T12:00:00+05:30</lastmod>
   </url><url>
     <loc>https://greycloak.com/post/2019-02-01-firefox-with-touch/</loc>
     <lastmod>2019-02-01T12:00:00+05:30</lastmod>

@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 05 Aug 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make Firefox address bar work like Chrome</title>
+      <link>https://greycloak.com/post/2022-11-19-firefox-address-bar/</link>
+      <pubDate>Sat, 19 Nov 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://greycloak.com/post/2022-11-19-firefox-address-bar/</guid>
+      <description>
+        
+          
+            I&#39;ve been using Firefox as my main browser for a few years now. I like supporting an independent organization and have come to really appreciate the containers functionality which helps me segragate activity. One gripe I&#39;ve had is that I much prefer the way Google Chrome handle&#39;s URL completion. When I&#39;m in Chrome and I type d it automatically autocompletes to https://www.discord.com/app in the address bar.
+By contrast, in Firefox typing the same thing autocompletes to https://www.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Joplin CLI on Raspberry Pi 4</title>
       <link>https://greycloak.com/post/2022-08-05-joplin-cli/</link>
