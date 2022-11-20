@@ -9,6 +9,7 @@ theme = "hugo-clarity"
 disqusShortname = ""
 
 DefaultContentLanguage = "en"
+disableLanguages = ['fr', 'ja']
 # [languages]
 # config/_default/languages.toml
 
