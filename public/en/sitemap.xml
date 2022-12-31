@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://greycloak.com/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -18,7 +18,7 @@
                 />
   </url><url>
     <loc>https://greycloak.com/categories/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -32,28 +32,33 @@
                 href="https://greycloak.com/categories/"
                 />
   </url><url>
-    <loc>https://greycloak.com/tags/firefox/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <loc>https://greycloak.com/tags/dns/</loc>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://greycloak.com/post/2022-12-30-dynamic-dns-raspberry-pi/</loc>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://greycloak.com/tags/linux/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://greycloak.com/post/2022-11-19-firefox-address-bar/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://greycloak.com/post/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://greycloak.com/tags/raspberrypi/</loc>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://greycloak.com/tags/</loc>
-    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -68,6 +73,16 @@
                 />
   </url><url>
     <loc>https://greycloak.com/categories/tutorial/</loc>
+    <lastmod>2022-12-30T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://greycloak.com/tags/firefox/</loc>
+    <lastmod>2022-11-19T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://greycloak.com/post/2022-11-19-firefox-address-bar/</loc>
     <lastmod>2022-11-19T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -83,11 +98,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://greycloak.com/tags/manjaro/</loc>
-    <lastmod>2022-08-05T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://greycloak.com/tags/raspberrypi/</loc>
     <lastmod>2022-08-05T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

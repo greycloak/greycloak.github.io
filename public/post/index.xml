@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 19 Nov 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Dynamic DNS with Namecheap for Raspberry Pi</title>
+      <link>https://greycloak.com/post/2022-12-30-dynamic-dns-raspberry-pi/</link>
+      <pubDate>Fri, 30 Dec 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://greycloak.com/post/2022-12-30-dynamic-dns-raspberry-pi/</guid>
+      <description>
+        
+          
+            I&#39;ve got a PiHole set up on my raspberry pi and have it connected to my home router. My ISP won&#39;t assign me a static IP address though it&#39;s pretty good about keeping the one I&#39;ve got active until I reboot my router. For the most part that&#39;s been good enough for me but I wanted to finally get dynamic dns going so I wouldn&#39;t have to worry about it again.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Make Firefox address bar work like Chrome</title>
       <link>https://greycloak.com/post/2022-11-19-firefox-address-bar/</link>
