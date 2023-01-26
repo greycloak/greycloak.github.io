@@ -235,8 +235,8 @@
     <div class="post_body"><p>I have a Raspberry Pi 4B that I use as a mini home server and pi-hole. I love that I can block intrusive ads, have a secure vpn connection to my home network, and have backup for my music collection. The Raspberry Pi 4 is a fun little device and if you can get your hands on one, it has a lot of cool uses. (Note, if you're having trouble, may I recommend RPILocator.. follow them on Mastadon for real time updates.)</p>
 <p>One of my concerns was the reliance on using a micro SD card for my entire storage and Operating System. I decided to transition over to a SATA SSD and I'd like to show you some of the troubles I ran into and how I overcame them.</p>
 <h2 id="the-right-hardware">The Right Hardware</h2>
-<p>I decided on the Western Digital 1 TB SATA SSD. It supports B+M key SSDs which is important to note.</p>
-<p>After a false start with a Geekworm adapter, I went with the Argon case. This take a little assembly but it will support the SSD I purchased above.</p>
+<p>I decided on the <a href="https://www.amazon.com/dp/B09ZYNHPW2?ref=ppx_yo2ov_dt_b_product_details&amp;th=1">Western Digital 1 TB SATA SSD</a>. It supports B+M key SSDs which is important to note.</p>
+<p>After a false start with a Geekworm adapter, I went with this <a href="https://www.amazon.com/dp/B08MJ3CSW7?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details">Argon case</a>. This take a little assembly but it will support the SSD I purchased above.</p>
 <h2 id="install-software">Install software</h2>
 <p>As always, update your Pi to the latest version first.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">$ sudo apt update
@@ -253,10 +253,10 @@
 <p>Next you can ssh into your pi using ssh -X. Change the credentials below for your user:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">$ ssh -X pi@raspberrypi
 </span></span></code></pre></div><p>Once you're in, you will need to launch the piclone copier.</p>
-<p>The first pitfall is how you're going to run a sudo command from X. Check out <a href="https://www.simplified.guide/ssh/x11-forwarding-as-root">this handy blog</a> which will guide you through it.</p>
-<p>The next pitfall is how you must launch piclone - which is using sudo and via dbus.</p>
+<p>The first pitfall is how you're going to run a GUI sudo command from X. Check out <a href="https://www.simplified.guide/ssh/x11-forwarding-as-root">this handy blog</a> which will guide you through using X11-Forwarding via SSH as a root or sudo user.</p>
+<p>Once you can run a GUI app as root via ssh, the next pitfall is how you must launch piclone - which is using sudo and via dbus. I'd tried just using sudo piclone which will not work.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">$ sudo dbus-launch piclone
-</span></span></code></pre></div><p>From there you'll have the piclone GUI pop up and, if all has gone well you'll be able to copy the microsd card to your SSD. Depending on the size of the microsd, this may take a while.</p>
+</span></span></code></pre></div><p>From there you'll have the piclone GUI pop up and, if all has gone well you'll be able to copy the microsd card to your SSD. Depending on the size of the microsd, this may take a while. If you don't see the copy to/from options, again double check you have <code>gvfs</code> installed.</p>
 <p>If you run into more trouble, you may be able to find a solution on the <a href="https://github.com/raspberrypi-ui/piclone/issues/14">GitHub issue</a>.</p>
 <h2 id="boot-order">Boot Order</h2>
 <p>Now you've got an SSD installed using the Argon case, copied the Micro SD card to your SSD, and you've hopefully confirmed that copy was successful by checking the contents of the SSD from the linux command line. The last thing to do is to set the boot ROM and boot order. Start by running the raspi-config utility:</p>
