@@ -23,9 +23,9 @@ One of my concerns was the reliance on using a micro SD card for my entire stora
 
 ## The Right Hardware
 
-I decided on the Western Digital 1 TB SATA SSD. It supports B+M key SSDs which is important to note.
+I decided on the [Western Digital 1 TB SATA SSD](https://www.amazon.com/dp/B09ZYNHPW2?ref=ppx_yo2ov_dt_b_product_details&th=1). It supports B+M key SSDs which is important to note.
 
-After a false start with a Geekworm adapter, I went with the Argon case. This take a little assembly but it will support the SSD I purchased above.
+After a false start with a Geekworm adapter, I went with this [Argon case](https://www.amazon.com/dp/B08MJ3CSW7?psc=1&ref=ppx_yo2ov_dt_b_product_details). This take a little assembly but it will support the SSD I purchased above.
 
 ## Install software
 
@@ -65,15 +65,16 @@ $ ssh -X pi@raspberrypi
 
 Once you're in, you will need to launch the piclone copier.
 
-The first pitfall is how you're going to run a sudo command from X. Check out [this handy blog](https://www.simplified.guide/ssh/x11-forwarding-as-root) which will guide you through it.
+The first pitfall is how you're going to run a GUI sudo command from X. Check out [this handy blog](https://www.simplified.guide/ssh/x11-forwarding-as-root) which will guide you through using X11-Forwarding via SSH as a root or sudo user.
 
-The next pitfall is how you must launch piclone - which is using sudo and via dbus.
+Once you can run a GUI app as root via ssh, the next pitfall is how you must launch piclone - which is using sudo and via dbus. I'd tried just using sudo piclone which will not work.
+
 
 ```
 $ sudo dbus-launch piclone
 ```
 
-From there you'll have the piclone GUI pop up and, if all has gone well you'll be able to copy the microsd card to your SSD. Depending on the size of the microsd, this may take a while.
+From there you'll have the piclone GUI pop up and, if all has gone well you'll be able to copy the microsd card to your SSD. Depending on the size of the microsd, this may take a while. If you don't see the copy to/from options, again double check you have `gvfs` installed.
 
 If you run into more trouble, you may be able to find a solution on the [GitHub issue](https://github.com/raspberrypi-ui/piclone/issues/14).
 
