@@ -2,346 +2,347 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://greycloak.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://greycloak.com/pt/"
+                href="http://localhost:1313/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://greycloak.com/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://greycloak.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://greycloak.com/pt/categories/"
+                href="http://localhost:1313/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://greycloak.com/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://greycloak.com/post/2023-01-26-headless-ssd-install-raspberry-pi/</loc>
+    <loc>http://localhost:1313/post/2023-01-26-headless-ssd-install-raspberry-pi/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/index/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/raspberrypi/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/storage/</loc>
+    <loc>http://localhost:1313/tags/raspberrypi/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/</loc>
+    <loc>http://localhost:1313/tags/storage/</loc>
+    <lastmod>2023-01-26T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://greycloak.com/pt/tags/"
+                href="http://localhost:1313/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://greycloak.com/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>https://greycloak.com/categories/tutorial/</loc>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
     <lastmod>2023-01-26T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/dns/</loc>
+    <loc>http://localhost:1313/tags/dns/</loc>
     <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2022-12-30-dynamic-dns-raspberry-pi/</loc>
+    <loc>http://localhost:1313/post/2022-12-30-dynamic-dns-raspberry-pi/</loc>
     <lastmod>2022-12-30T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/firefox/</loc>
+    <loc>http://localhost:1313/tags/firefox/</loc>
     <lastmod>2022-11-19T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2022-11-19-firefox-address-bar/</loc>
+    <loc>http://localhost:1313/post/2022-11-19-firefox-address-bar/</loc>
     <lastmod>2022-11-19T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2022-08-05T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2022-08-05-joplin-cli/</loc>
+    <loc>http://localhost:1313/post/2022-08-05-joplin-cli/</loc>
     <lastmod>2022-08-05T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/manjaro/</loc>
+    <loc>http://localhost:1313/tags/manjaro/</loc>
     <lastmod>2022-08-05T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/cassette/</loc>
+    <loc>http://localhost:1313/tags/cassette/</loc>
     <lastmod>2022-06-12T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2022-06-12-70s-mix/</loc>
+    <loc>http://localhost:1313/post/2022-06-12-70s-mix/</loc>
     <lastmod>2022-06-12T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/nostalgia/</loc>
+    <loc>http://localhost:1313/tags/nostalgia/</loc>
     <lastmod>2022-06-12T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2022-05-01-benefits-cassette-culture/</loc>
+    <loc>http://localhost:1313/post/2022-05-01-benefits-cassette-culture/</loc>
     <lastmod>2022-05-01T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/archlinux/</loc>
+    <loc>http://localhost:1313/tags/archlinux/</loc>
     <lastmod>2019-04-16T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2019-04-16-rmagick-arch-linux/</loc>
+    <loc>http://localhost:1313/post/2019-04-16-rmagick-arch-linux/</loc>
     <lastmod>2019-04-16T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/rmagick/</loc>
+    <loc>http://localhost:1313/tags/rmagick/</loc>
     <lastmod>2019-04-16T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/ruby/</loc>
+    <loc>http://localhost:1313/tags/ruby/</loc>
     <lastmod>2019-04-16T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/nodejs/</loc>
+    <loc>http://localhost:1313/tags/nodejs/</loc>
     <lastmod>2019-02-22T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/npm/</loc>
+    <loc>http://localhost:1313/tags/npm/</loc>
     <lastmod>2019-02-22T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2019-02-22-should-you-npm-install-globally/</loc>
+    <loc>http://localhost:1313/post/2019-02-22-should-you-npm-install-globally/</loc>
     <lastmod>2019-02-22T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2019-02-01-firefox-with-touch/</loc>
+    <loc>http://localhost:1313/post/2019-02-01-firefox-with-touch/</loc>
     <lastmod>2019-02-01T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2019-01-29-giving-arch-another-try/</loc>
+    <loc>http://localhost:1313/post/2019-01-29-giving-arch-another-try/</loc>
     <lastmod>2019-01-29T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/debian/</loc>
+    <loc>http://localhost:1313/tags/debian/</loc>
     <lastmod>2018-12-21T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-12-21-install-mariadb-debian/</loc>
+    <loc>http://localhost:1313/post/2018-12-21-install-mariadb-debian/</loc>
     <lastmod>2018-12-21T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/mariadb/</loc>
+    <loc>http://localhost:1313/tags/mariadb/</loc>
     <lastmod>2018-12-21T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/mysql/</loc>
+    <loc>http://localhost:1313/tags/mysql/</loc>
     <lastmod>2018-12-21T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/envyx360/</loc>
+    <loc>http://localhost:1313/tags/envyx360/</loc>
     <lastmod>2018-11-01T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/kernel/</loc>
+    <loc>http://localhost:1313/tags/kernel/</loc>
     <lastmod>2018-11-01T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/</loc>
+    <loc>http://localhost:1313/post/2018-11-01-patch-ubuntu-kernel/</loc>
     <lastmod>2018-11-01T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/ubuntu/</loc>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2018-11-01T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-10-31-fix-freezing-envyx360/</loc>
+    <loc>http://localhost:1313/post/2018-10-31-fix-freezing-envyx360/</loc>
     <lastmod>2018-10-31T10:09:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/chromeos/</loc>
+    <loc>http://localhost:1313/tags/chromeos/</loc>
     <lastmod>2018-10-26T10:09:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-10-26-chromeos-shortcomings/</loc>
+    <loc>http://localhost:1313/post/2018-10-26-chromeos-shortcomings/</loc>
     <lastmod>2018-10-26T10:09:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/pixelbook/</loc>
+    <loc>http://localhost:1313/tags/pixelbook/</loc>
     <lastmod>2018-10-26T10:09:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-07-31-fix-broken-mysql-ubuntu/</loc>
+    <loc>http://localhost:1313/post/2018-07-31-fix-broken-mysql-ubuntu/</loc>
     <lastmod>2018-07-31T10:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/crouton/</loc>
+    <loc>http://localhost:1313/tags/crouton/</loc>
     <lastmod>2018-07-07T03:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-07-07-fix-keyboard-lag-crouton/</loc>
+    <loc>http://localhost:1313/post/2018-07-07-fix-keyboard-lag-crouton/</loc>
     <lastmod>2018-07-07T03:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/postgresql/</loc>
+    <loc>http://localhost:1313/tags/postgresql/</loc>
     <lastmod>2018-07-07T03:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-07-07-debian-postgresql-setup/</loc>
+    <loc>http://localhost:1313/post/2018-07-07-debian-postgresql-setup/</loc>
     <lastmod>2018-07-07T03:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/xorg/</loc>
+    <loc>http://localhost:1313/tags/xorg/</loc>
     <lastmod>2018-07-07T03:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2018-07-06T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2018-07-06-debian-ruby-setup/</loc>
+    <loc>http://localhost:1313/post/2018-07-06-debian-ruby-setup/</loc>
     <lastmod>2018-07-06T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2013-10-08-export-rails-to-csv/</loc>
+    <loc>http://localhost:1313/post/2013-10-08-export-rails-to-csv/</loc>
     <lastmod>2013-10-08T10:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/rails/</loc>
+    <loc>http://localhost:1313/tags/rails/</loc>
     <lastmod>2013-10-08T10:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2009-06-10-reverse-ssh-tunnel/</loc>
+    <loc>http://localhost:1313/post/2009-06-10-reverse-ssh-tunnel/</loc>
     <lastmod>2009-06-10T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/ssh/</loc>
+    <loc>http://localhost:1313/tags/ssh/</loc>
     <lastmod>2009-06-10T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2009-04-19-swap-control-alt-linux/</loc>
+    <loc>http://localhost:1313/post/2009-04-19-swap-control-alt-linux/</loc>
     <lastmod>2009-04-19T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2009-02-14-sort-by-directory/</loc>
+    <loc>http://localhost:1313/post/2009-02-14-sort-by-directory/</loc>
     <lastmod>2009-02-14T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/post/2007-05-31-ten-things-archlinux/</loc>
+    <loc>http://localhost:1313/post/2007-05-31-ten-things-archlinux/</loc>
     <lastmod>2007-05-31T10:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/tags/index/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://greycloak.com/search/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://greycloak.com/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://greycloak.com/pt/series/"
+                href="http://localhost:1313/pt/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://greycloak.com/series/"
+                href="http://localhost:1313/series/"
                 />
   </url>
 </urlset>

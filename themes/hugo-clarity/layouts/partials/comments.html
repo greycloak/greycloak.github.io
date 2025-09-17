@@ -1,7 +1,8 @@
 <div class="post_comments">
-  {{ if .Site.DisqusShortname }}
+  {{- $shortname := site.Config.Services.Disqus.Shortname -}}
+  {{- if $shortname }}
     {{ template "_internal/disqus.html" . }}
-  {{ end }}
+  {{- end }}
   {{ if .Site.Params.utterances }}
     {{ template "partials/utterances.html" . }}
   {{ end }}
