@@ -32,12 +32,27 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/post/2025-09-17-upgrading-hugo-clarity-theme/</loc>
+    <lastmod>2025-09-17T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/golang/</loc>
     <lastmod>2025-09-17T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2025-09-17T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo-errors/</loc>
+    <lastmod>2025-09-17T12:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo-upgrade/</loc>
     <lastmod>2025-09-17T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -78,11 +93,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/categories/tutorial/</loc>
-    <lastmod>2025-09-17T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2025-09-17-upgrading-hugo-clarity-theme/</loc>
     <lastmod>2025-09-17T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -142,48 +152,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/cassette/</loc>
-    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2022-06-12-70s-mix/</loc>
-    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/nostalgia/</loc>
-    <lastmod>2022-06-12T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2022-05-01-benefits-cassette-culture/</loc>
-    <lastmod>2022-05-01T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/archlinux/</loc>
-    <lastmod>2019-04-16T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2019-04-16-rmagick-arch-linux/</loc>
-    <lastmod>2019-04-16T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/rmagick/</loc>
-    <lastmod>2019-04-16T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/ruby/</loc>
-    <lastmod>2019-04-16T12:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -204,16 +174,6 @@
   </url><url>
     <loc>http://localhost:1313/post/2019-02-22-should-you-npm-install-globally/</loc>
     <lastmod>2019-02-22T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2019-02-01-firefox-with-touch/</loc>
-    <lastmod>2019-02-01T12:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2019-01-29-giving-arch-another-try/</loc>
-    <lastmod>2019-01-29T16:00:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -312,6 +272,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/ruby/</loc>
+    <lastmod>2018-07-06T23:34:56+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/post/2018-07-06-debian-ruby-setup/</loc>
     <lastmod>2018-07-06T23:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -344,6 +309,11 @@
   </url><url>
     <loc>http://localhost:1313/post/2009-02-14-sort-by-directory/</loc>
     <lastmod>2009-02-14T23:34:56+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/archlinux/</loc>
+    <lastmod>2007-05-31T10:34:56+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
