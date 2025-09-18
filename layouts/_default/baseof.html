@@ -34,13 +34,13 @@
     {{- $bundlePath := (printf "%s/js/bundle.js" .Lang ) }}
     {{- $bundle := slice $highlight $variables $functions $code $main $custom | resources.Concat $bundlePath | resources.Fingerprint "sha512" -}}
 
-    <!-- preload assets declaration (use relative URLs) -->
-    <link rel="preload" href="{{ $styles.RelPermalink }}" integrity = "{{ $styles.Data.Integrity }}" as="style" crossorigin="anonymous">
-    <link rel="preload" href="{{ $bundle.RelPermalink }}" as="script" integrity=
+    <!-- preload assets declaration (absolute URLs) -->
+    <link rel="preload" href="{{ $styles.Permalink }}" integrity = "{{ $styles.Data.Integrity }}" as="style" crossorigin="anonymous">
+    <link rel="preload" href="{{ $bundle.Permalink }}" as="script" integrity=
     "{{ $bundle.Data.Integrity }}" crossorigin="anonymous">
 
-    <!-- styles file (use relative URL) -->
-    <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
+    <!-- styles file (absolute URL) -->
+    <link rel="stylesheet" type="text/css" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
     {{- with $s.customCSS }}
     {{- range . -}}
 	  <link rel="stylesheet" href="{{ relURL . }}">
@@ -73,7 +73,7 @@
     </main>
     {{- partialCached "icons" . }}
     {{- partialCached "footer" . }}
-    <script type="text/javascript" src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ $bundle.Permalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
     {{- partial "search/scripts" . }}
     {{- with $s.customJS }}
     {{- range . -}}

@@ -3,8 +3,10 @@
 baseurl = "https://greycloak.com/"  # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "Copyright © 2023, Vince Wadhwani; all rights reserved."
-relativeURLs = true
-# canonifyurls = false
+# Prefer absolute URLs rooted at baseURL
+# This avoids accidental localhost or relative path issues in prod
+relativeURLs = false
+canonifyurls = true
 #[pagination]
 #pagerSize = 10
 
