@@ -22,8 +22,9 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.101.0'
-          # extended: true
+          # Use a modern Hugo version with SCSS support
+          hugo-version: 'latest'
+          extended: true
 
       - name: Build
         run: hugo --minify

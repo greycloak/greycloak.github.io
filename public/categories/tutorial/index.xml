@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023, Vince Wadhwani; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 26 Jan 2023 12:00:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Sep 2025 12:00:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrading this site to the latest Hugo</title>
+      <link>http://localhost:1313/post/2025-09-17-upgrading-hugo-clarity-theme/</link>
+      <pubDate>Wed, 17 Sep 2025 12:00:00 +0530</pubDate>
+      
+      <guid>http://localhost:1313/post/2025-09-17-upgrading-hugo-clarity-theme/</guid>
+      <description>
+        
+          
+            &lt;p&gt;I upgraded Hugo and found that this site (which was set up years ago) no longer built cleanly. Below are the exact changes I made to get it running on the current Hugo without changing the look and feel.&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Replaced the deprecated &lt;code&gt;resources.ToCSS&lt;/code&gt; with &lt;code&gt;css.Sass&lt;/code&gt; in the theme.&lt;/li&gt;
+&lt;li&gt;Switched &lt;code&gt;.Site.IsMultiLingual&lt;/code&gt; to &lt;code&gt;hugo.IsMultilingual&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Updated Disqus access to &lt;code&gt;site.Config.Services.Disqus.Shortname&lt;/code&gt; and made comments gracefully disable when unset.&lt;/li&gt;
+&lt;li&gt;No content changes needed; &lt;code&gt;hugo server&lt;/code&gt; now runs cleanly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-environment&#34;&gt;My environment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo: current release as of today&lt;/li&gt;
+&lt;li&gt;Theme: &lt;code&gt;hugo-clarity&lt;/code&gt; (as a submodule)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;errors-i-hit&#34;&gt;Errors I hit&lt;/h2&gt;
+&lt;p&gt;After upgrading, &lt;code&gt;hugo server&lt;/code&gt; complained about three things:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Headless SSD install on Raspberry Pi 4B</title>
       <link>http://localhost:1313/post/2023-01-26-headless-ssd-install-raspberry-pi/</link>
