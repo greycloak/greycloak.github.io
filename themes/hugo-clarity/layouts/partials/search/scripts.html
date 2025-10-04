@@ -1,10 +1,10 @@
 {{- $params := site.Params }}
 {{- if $params.enableSearch }}
   {{- $fusePath := "js/fuse.js" }}
-  {{- $fuse := resources.Get $fusePath | resources.ExecuteAsTemplate $fusePath . }}
+  {{- $fuse := resources.Get $fusePath }}
 
   {{- $searchPath := "js/search.js" }}
-  {{- $search := resources.Get $searchPath | resources.ExecuteAsTemplate $searchPath . }}
+  {{- $search := resources.Get $searchPath }}
 
   {{- $bundle2 := slice $fuse $search | resources.Concat "js/search.js" | resources.Minify | resources.Fingerprint "sha512" }}
 
