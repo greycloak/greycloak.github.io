@@ -11,25 +11,25 @@
 
     <!-- scripts definition -->
     {{- $highlightPath := "js/highlight.js" }}
-    {{- $highlight := resources.Get $highlightPath | resources.ExecuteAsTemplate $highlightPath . }}
+    {{- $highlight := resources.Get $highlightPath }}
 
     {{- $variablesScriptPath := "js/variables.js" }}
     {{- $variables := resources.Get $variablesScriptPath | resources.ExecuteAsTemplate (printf "%s/js/variables.js" .Lang) . }}
 
     {{- $functionsScriptPath := "js/functions.js" }}
-    {{- $functions := resources.Get $functionsScriptPath | resources.ExecuteAsTemplate $functionsScriptPath . }}
+    {{- $functions := resources.Get $functionsScriptPath }}
 
     {{- $codeScriptPath := "js/code.js" }}
-    {{- $code := resources.Get $codeScriptPath | resources.ExecuteAsTemplate $codeScriptPath . }}
+    {{- $code := resources.Get $codeScriptPath }}
 
     {{- $customScriptPath := "js/custom.js" }}
     {{ if (fileExists "../../assets/js/custom.js") }}
       {{ $customScriptPath := "../../assets/js/custom.js" }}
     {{ end }}
-    {{- $custom := resources.Get $customScriptPath | resources.ExecuteAsTemplate $customScriptPath . }}
+    {{- $custom := resources.Get $customScriptPath }}
 
     {{- $mainScriptPath := "js/index.js" }}
-    {{- $main := resources.Get $mainScriptPath | resources.ExecuteAsTemplate $mainScriptPath . }}
+    {{- $main := resources.Get $mainScriptPath }}
 
     {{- $bundlePath := (printf "%s/js/bundle.js" .Lang ) }}
     {{- $bundle := slice $highlight $variables $functions $code $main $custom | resources.Concat $bundlePath | resources.Fingerprint "sha512" -}}
