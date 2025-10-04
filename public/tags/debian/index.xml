@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>debian on Greycloak</title>
+    <title>Debian on Greycloak</title>
     <link>https://greycloak.com/tags/debian/</link>
-    <description>Recent content in debian on Greycloak</description>
+    <description>Recent content in Debian on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>Copyright © 2023, Vince Wadhwani; all rights reserved.</copyright>
     <lastBuildDate>Fri, 21 Dec 2018 16:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,9 +17,12 @@
       <description>
         
           
-            Note that this article for local installation of Maria DB or MySQL. It&#39;s intended to help you get up and running with the database locally and is not intended as a production tutorial. If you need to use either in a production environment, please contact a professional.
-Step 1: update and install
-1sudo apt update 2sudo apt upgrade 3sudo apt install mariadb-server mariadb-client Step 2: (Optional) Run the secure installation. Doesn&#39;t hurt to see the options for future reference.
+            &lt;p&gt;Note that this article for local installation of Maria DB or MySQL. It&#39;s intended to help you get up and running with the database locally and is not intended as a production tutorial. If you need to use either in a production environment, please contact a professional.&lt;/p&gt;
+&lt;p&gt;Step 1: update and install&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install mariadb-server mariadb-client
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Step 2: (Optional) Run the secure installation. Doesn&#39;t hurt to see the options for future reference.&lt;/p&gt;
           
           
         
@@ -35,9 +38,11 @@ Step 1: update and install
       <description>
         
           
-            In a previous article, we set up your Debian Buster system with git, ruby, and a bash shell that tells you the ruby version and branch. Next up, we&#39;re going to install PostgreSQL and dependencies needed to get it working with Ruby on Rails.
-First, let&#39;s make sure your system is up to date:
-1sudo apt update 2sudo apt upgrade Next, we&#39;re going to jump right in and install postgres 10:
+            &lt;p&gt;In a previous article, we set up your Debian Buster system with git, ruby, and a bash shell that tells you the ruby version and branch. Next up, we&#39;re going to install PostgreSQL and dependencies needed to get it working with Ruby on Rails.&lt;/p&gt;
+&lt;p&gt;First, let&#39;s make sure your system is up to date:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, we&#39;re going to jump right in and install postgres 10:&lt;/p&gt;
           
           
         
@@ -53,10 +58,13 @@ First, let&#39;s make sure your system is up to date:
       <description>
         
           
-            So you&#39;ve got a new debian install and need to get it set up to do real work? Here&#39;s a quick guide to get the packages you need assuming you&#39;re using Debian&#39;s current testing distro, Buster, installed.
-First, let&#39;s make sure your system is up to date:
-1sudo apt update 2sudo apt upgrade Next, let&#39;s grab the essentials including git:
-1sudo apt install git curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs Before we get too far, let&#39;s configure git.
+            &lt;p&gt;So you&#39;ve got a new debian install and need to get it set up to do real work? Here&#39;s a quick guide to get the packages you need assuming you&#39;re using Debian&#39;s current testing distro, &lt;code&gt;Buster&lt;/code&gt;, installed.&lt;/p&gt;
+&lt;p&gt;First, let&#39;s make sure your system is up to date:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, let&#39;s grab the essentials including git:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install git curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Before we get too far, let&#39;s configure git. I&#39;m going to assume you&#39;re going to do most of your fetching and pushing using https rather than ssh. And if not, that you&#39;ll follow other instructions to set up ssh.&lt;/p&gt;
           
           
         

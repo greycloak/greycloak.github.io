@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nodejs on Greycloak</title>
+    <title>Nodejs on Greycloak</title>
     <link>https://greycloak.com/tags/nodejs/</link>
-    <description>Recent content in nodejs on Greycloak</description>
+    <description>Recent content in Nodejs on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>Copyright © 2023, Vince Wadhwani; all rights reserved.</copyright>
     <lastBuildDate>Fri, 22 Feb 2019 12:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,8 +17,9 @@
       <description>
         
           
-            I was transitioning this blog from using Jekyll to Hexo. After comparing both, I feel I made the right choice. However, I almost started off on the wrong foot. Being unfamiliar with Node.js, I was reviewing the Hexo install instructions and the first thing it tells you is to install via:
-1npm install hexo-cli -g I&#39;m running on Archlinux and got a permission denied error when I tried that. It&#39;s likely because I used pacman (the Archlinux package manager) to install node and/or npm.
+            &lt;p&gt;I was transitioning this blog from using Jekyll to Hexo. After comparing both, I feel I made the right choice. However, I almost started off on the wrong foot. Being unfamiliar with Node.js, I was reviewing the Hexo install instructions and the first thing it tells you is to install via:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;npm install hexo-cli -g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I&#39;m running on Archlinux and got a permission denied error when I tried that. It&#39;s likely because I used pacman (the Archlinux package manager) to install node and/or npm. So that left me with the decision of whether to use sudo to force the install. After years of running homebrew, that felt like the wrong decision. And it is. Instead of using sudo, fix permissions or create a new directory. If in doubt, your problem is likely solved by creating a new, local directory.&lt;/p&gt;
           
           
         

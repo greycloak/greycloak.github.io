@@ -1,6 +1,7 @@
 baseURL = 'https://greycloak.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = "hugo-clarity"
 
 [params]
 site = 'https://greycloak.com'

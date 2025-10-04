@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kernel on Greycloak</title>
+    <title>Kernel on Greycloak</title>
     <link>https://greycloak.com/tags/kernel/</link>
-    <description>Recent content in kernel on Greycloak</description>
+    <description>Recent content in Kernel on Greycloak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>Copyright © 2023, Vince Wadhwani; all rights reserved.</copyright>
     <lastBuildDate>Thu, 01 Nov 2018 16:00:00 +0530</lastBuildDate><atom:link href="https://greycloak.com/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,7 +17,7 @@
       <description>
         
           
-            I bought an HP Envy x360 and out of the box it works pretty well with linux. I&#39;ve got Ubuntu 18.10 installed and have only had to tweak a couple of minor things. There is however, one big problem and that is the touch screen doesn&#39;t work. It might be the HP firmware (I am still figuring out how to update it in linux) but in the meantime, there is a patch available.
+            &lt;p&gt;I bought an HP Envy x360 and out of the box it works pretty well with linux. I&#39;ve got Ubuntu 18.10 installed and have only had to tweak a couple of minor things. There is however, one big problem and that is the touch screen doesn&#39;t work. It might be the HP firmware (I am still figuring out how to update it in linux) but in the meantime, there is a &lt;a href=&#34;https://bugzilla.kernel.org/show_bug.cgi?id=198715#c14&#34;&gt;patch&lt;/a&gt; available. The question is how do we apply it? Let&#39;s find out.&lt;/p&gt;
           
           
         

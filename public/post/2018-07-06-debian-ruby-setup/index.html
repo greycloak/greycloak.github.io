@@ -6,6 +6,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'XXXXXXXXXX');
+</script>
+<script type="text/javascript">
 
   <script type="text/javascript">
   var sc_project=12753264; 
@@ -28,19 +36,13 @@
 
 <meta property="og:type" content="article">
 <meta name="description" content="So you&#39;ve got a new debian install and need to get it set up to do real work? Here&#39;s a quick guide to get the packages you need assuming you&#39;re using Debian&#39;s …" />
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@vwadhwani">
-<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Setting up Debian Buster for Ruby Development" />
-<meta name="twitter:description" description="So you&#39;ve got a new debian install and need to get it set up to do real work? Here&#39;s a quick guide to get the packages you need assuming you&#39;re using Debian&#39;s …" />
 <meta property="og:url" content="https://greycloak.com/post/2018-07-06-debian-ruby-setup/" />
 <meta property="og:title" content="Setting up Debian Buster for Ruby Development" />
 <meta property="og:description" content="So you&#39;ve got a new debian install and need to get it set up to do real work? Here&#39;s a quick guide to get the packages you need assuming you&#39;re using Debian&#39;s …" />
-
-
- 
-<meta property="og:image" content="https://greycloak.com/" />
-<meta name="twitter:image" content="https://greycloak.com/" />
-
+<meta property="og:image" content="https://greycloak.com/post/2018-07-06-debian-ruby-setup/images/ruby.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://greycloak.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://greycloak.com/icons/favicon-32x32.png">
@@ -173,27 +175,23 @@
         </a>
     </span>
     <span class="page_only">&nbsp;·
-  
-  
-  
-  
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Setting%20up%20Debian%20Buster%20for%20Ruby%20Development&url=https://greycloak.com/post/2018-07-06-debian-ruby-setup/&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow"> 
+    <a href="https://twitter.com/intent/tweet?text=Setting%20up%20Debian%20Buster%20for%20Ruby%20Development&url=https%3a%2f%2fgreycloak.com%2fpost%2f2018-07-06-debian-ruby-setup%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://greycloak.com/post/2018-07-06-debian-ruby-setup/&t=Setting%20up%20Debian%20Buster%20for%20Ruby%20Development" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fgreycloak.com%2fpost%2f2018-07-06-debian-ruby-setup%2f&t=Setting%20up%20Debian%20Buster%20for%20Ruby%20Development" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
 </svg>
 
     </a>
-    <a href="https://www.linkedin.com/shareArticle?url=https://greycloak.com/post/2018-07-06-debian-ruby-setup/&amp;title=Setting%20up%20Debian%20Buster%20for%20Ruby%20Development" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
       <svg class="icon">
   <title>linkedin</title>
   <use xlink:href="#linkedin"></use>
@@ -222,13 +220,13 @@
 </span></span><span class="line"><span class="ln">2</span><span class="cl">git config --global user.name &#34;YOUR NAME&#34;
 </span></span><span class="line"><span class="ln">3</span><span class="cl">git config --global user.email &#34;YOUR@EMAIL.com&#34;
 </span></span></code></pre></div><p>Next, let's get ruby installed. We'll use RVM</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">sudo apt install libgdbm-dev libncurses5-dev automake libtool bison
-</span></span><span class="line"><span class="ln">2</span><span class="cl">gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-</span></span><span class="line"><span class="ln">3</span><span class="cl">curl -sSL https://get.rvm.io | bash -s stable
-</span></span><span class="line"><span class="ln">4</span><span class="cl">source ~/.rvm/scripts/rvm
-</span></span><span class="line"><span class="ln">5</span><span class="cl">rvm install 2.6.0
-</span></span><span class="line"><span class="ln">6</span><span class="cl">rvm use 2.6.0 --default
-</span></span><span class="line"><span class="ln">7</span><span class="cl">ruby -v
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="n">libgdbm</span><span class="o">-</span><span class="n">dev</span> <span class="n">libncurses5</span><span class="o">-</span><span class="n">dev</span> <span class="n">automake</span> <span class="n">libtool</span> <span class="n">bison</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="n">gpg</span> <span class="o">--</span><span class="n">keyserver</span> <span class="n">hkp</span><span class="p">:</span><span class="o">//</span><span class="n">keys</span><span class="o">.</span><span class="n">gnupg</span><span class="o">.</span><span class="n">net</span> <span class="o">--</span><span class="n">recv</span><span class="o">-</span><span class="n">keys</span> <span class="mi">409</span><span class="n">B6B1796C275462A1703113804BB82D39DC0E3</span> <span class="mi">7</span><span class="n">D2BAF1CF37B13E2069D6956105BD0E739499BDB</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="n">curl</span> <span class="o">-</span><span class="n">sSL</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">get</span><span class="o">.</span><span class="n">rvm</span><span class="o">.</span><span class="n">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="n">source</span> <span class="o">~/.</span><span class="n">rvm</span><span class="o">/</span><span class="n">scripts</span><span class="o">/</span><span class="n">rvm</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="n">rvm</span> <span class="n">install</span> <span class="mf">2.6</span><span class="o">.</span><span class="mi">0</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="n">rvm</span> <span class="n">use</span> <span class="mf">2.6</span><span class="o">.</span><span class="mi">0</span> <span class="o">--</span><span class="n">default</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl"><span class="n">ruby</span> <span class="o">-</span><span class="n">v</span>
 </span></span></code></pre></div><p>We've now got ruby installed and git installed. Let's tie them both together with a bash prompt that will tell us the ruby version and branch of any repo we're working in.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">cd ~
 </span></span><span class="line"><span class="ln">2</span><span class="cl">curl -o ~/.git-prompt.sh \
@@ -607,6 +605,14 @@ export PS1=&quot;\[\033[G\]$PS1&quot;
 
   </div>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'XXXXXXXXXX');
+</script>
+<script type="text/javascript">
 
   <script type="text/javascript">
   var sc_project=12753264; 
@@ -628,7 +634,7 @@ export PS1=&quot;\[\033[G\]$PS1&quot;
 
     <script type="text/javascript" src="https://greycloak.com/en/js/bundle.a7e29fae500d5aa0b137ab7f9ecfd16d0097f9aa642ebaa2e50088be505404a8995af89844f4456b23bc5b90b9387e95dc08247598a2bd7d816f88bfe4d7bceb.js" integrity="sha512-p&#43;KfrlANWqCxN6t/ns/RbQCX&#43;apkLrqi5QCIvlBUBKiZWviYRPRFayO8W5C5OH6V3AgkdZiivX2Bb4i/5Ne86w==" crossorigin="anonymous"></script>
 
-  <script src="https://greycloak.com/js/search.min.8a7989a3155833e5032fb922caab1294cb74fa70ec9dd2d720a230b8405586447e2e017e6eff69c3d91da71078850ced1543f1cb71d2822e4faab818381c4f1e.js"></script>
+  <script src="https://greycloak.com/js/search.min.b2a463ceaa5916a14cb61be31213359b6c718a66e487a48ba14cc45daee5fa8f5118586a88f7bac53879dbd3f2c03ab45b8a33bf7e95151c30f5bd851ad3cd0a.js"></script>
 
     
   </body>

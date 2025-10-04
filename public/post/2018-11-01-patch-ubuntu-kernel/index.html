@@ -6,6 +6,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'XXXXXXXXXX');
+</script>
+<script type="text/javascript">
 
   <script type="text/javascript">
   var sc_project=12753264; 
@@ -28,19 +36,13 @@
 
 <meta property="og:type" content="article">
 <meta name="description" content="I bought an HP Envy x360 and out of the box it works pretty well with linux. I&#39;ve got Ubuntu 18.10 installed and have only had to tweak a couple of minor …" />
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@vwadhwani">
-<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Patch the Ubuntu Kernel" />
-<meta name="twitter:description" description="I bought an HP Envy x360 and out of the box it works pretty well with linux. I&#39;ve got Ubuntu 18.10 installed and have only had to tweak a couple of minor …" />
 <meta property="og:url" content="https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/" />
 <meta property="og:title" content="Patch the Ubuntu Kernel" />
 <meta property="og:description" content="I bought an HP Envy x360 and out of the box it works pretty well with linux. I&#39;ve got Ubuntu 18.10 installed and have only had to tweak a couple of minor …" />
-
-
- 
-<meta property="og:image" content="https://greycloak.com/" />
-<meta name="twitter:image" content="https://greycloak.com/" />
-
+<meta property="og:image" content="https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/images/ubuntu.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://greycloak.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://greycloak.com/icons/favicon-32x32.png">
@@ -174,27 +176,23 @@
         </a>
     </span>
     <span class="page_only">&nbsp;·
-  
-  
-  
-  
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Patch%20the%20Ubuntu%20Kernel&url=https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow"> 
+    <a href="https://twitter.com/intent/tweet?text=Patch%20the%20Ubuntu%20Kernel&url=https%3a%2f%2fgreycloak.com%2fpost%2f2018-11-01-patch-ubuntu-kernel%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/&t=Patch%20the%20Ubuntu%20Kernel" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fgreycloak.com%2fpost%2f2018-11-01-patch-ubuntu-kernel%2f&t=Patch%20the%20Ubuntu%20Kernel" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
 </svg>
 
     </a>
-    <a href="https://www.linkedin.com/shareArticle?url=https://greycloak.com/post/2018-11-01-patch-ubuntu-kernel/&amp;title=Patch%20the%20Ubuntu%20Kernel" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
       <svg class="icon">
   <title>linkedin</title>
   <use xlink:href="#linkedin"></use>
@@ -218,20 +216,20 @@
 </span></span></code></pre></div><p>In our example we're going to be applying this patch to the latest kernel which is currently 4.19.6 Let's clone it:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">git clone --depth 1 --single-branch --branch v4.19.6 git://git.launchpad.net/~ubuntu-kernel-test/ubuntu/+source/linux/+git/mainline-crack v4.19.6
 </span></span></code></pre></div><p>If you look at the <a href="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.19.6/">website directory</a> in question, you'll see the 6 patch files we need. Let's change into the newly cloned 4.19.6 folder and grab them:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">cd 4.19.6
-</span></span><span class="line"><span class="ln">2</span><span class="cl">wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.19.6/0001-base-packaging.patch
-</span></span><span class="line"><span class="ln">3</span><span class="cl">wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.19.6/0002-UBUNTU-SAUCE-add-vmlinux.strip-to-BOOT_TARGETS1-on-p.patch
-</span></span><span class="line"><span class="ln">4</span><span class="cl">wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.19.6/0003-UBUNTU-SAUCE-tools-hv-lsvmbus-add-manual-page.patch
-</span></span><span class="line"><span class="ln">5</span><span class="cl">wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.19.6/0004-debian-changelog.patch
-</span></span><span class="line"><span class="ln">6</span><span class="cl">wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.19.6/0005-configs-based-on-Ubuntu-4.19.0-8.9.patch
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">cd</span> <span class="mf">4.19</span><span class="o">.</span><span class="mi">6</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">kernel</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="o">/~</span><span class="n">kernel</span><span class="o">-</span><span class="n">ppa</span><span class="o">/</span><span class="n">mainline</span><span class="o">/</span><span class="n">v4</span><span class="o">.</span><span class="mf">19.6</span><span class="o">/</span><span class="mi">0001</span><span class="o">-</span><span class="n">base</span><span class="o">-</span><span class="n">packaging</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">kernel</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="o">/~</span><span class="n">kernel</span><span class="o">-</span><span class="n">ppa</span><span class="o">/</span><span class="n">mainline</span><span class="o">/</span><span class="n">v4</span><span class="o">.</span><span class="mf">19.6</span><span class="o">/</span><span class="mi">0002</span><span class="o">-</span><span class="n">UBUNTU</span><span class="o">-</span><span class="n">SAUCE</span><span class="o">-</span><span class="n">add</span><span class="o">-</span><span class="n">vmlinux</span><span class="o">.</span><span class="n">strip</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">BOOT_TARGETS1</span><span class="o">-</span><span class="n">on</span><span class="o">-</span><span class="n">p</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">kernel</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="o">/~</span><span class="n">kernel</span><span class="o">-</span><span class="n">ppa</span><span class="o">/</span><span class="n">mainline</span><span class="o">/</span><span class="n">v4</span><span class="o">.</span><span class="mf">19.6</span><span class="o">/</span><span class="mi">0003</span><span class="o">-</span><span class="n">UBUNTU</span><span class="o">-</span><span class="n">SAUCE</span><span class="o">-</span><span class="n">tools</span><span class="o">-</span><span class="n">hv</span><span class="o">-</span><span class="n">lsvmbus</span><span class="o">-</span><span class="n">add</span><span class="o">-</span><span class="n">manual</span><span class="o">-</span><span class="n">page</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">kernel</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="o">/~</span><span class="n">kernel</span><span class="o">-</span><span class="n">ppa</span><span class="o">/</span><span class="n">mainline</span><span class="o">/</span><span class="n">v4</span><span class="o">.</span><span class="mf">19.6</span><span class="o">/</span><span class="mi">0004</span><span class="o">-</span><span class="n">debian</span><span class="o">-</span><span class="n">changelog</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">kernel</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="o">/~</span><span class="n">kernel</span><span class="o">-</span><span class="n">ppa</span><span class="o">/</span><span class="n">mainline</span><span class="o">/</span><span class="n">v4</span><span class="o">.</span><span class="mf">19.6</span><span class="o">/</span><span class="mi">0005</span><span class="o">-</span><span class="n">configs</span><span class="o">-</span><span class="n">based</span><span class="o">-</span><span class="n">on</span><span class="o">-</span><span class="n">Ubuntu</span><span class="o">-</span><span class="mf">4.19</span><span class="o">.</span><span class="mi">0</span><span class="o">-</span><span class="mf">8.9</span><span class="o">.</span><span class="n">patch</span>
 </span></span></code></pre></div><p>We're next going to also grab the patch. Create a file in the same directory and let's called it x360.patch. Open up your favorite text editor and paste the <a href="https://bugzilla.kernel.org/attachment.cgi?id=275381">raw patch</a> into it.</p>
 <p>Time to start patching! From the command line:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">patch -p1 &lt; 0001-base-packaging.patch
-</span></span><span class="line"><span class="ln">2</span><span class="cl">patch -p1 &lt; 0002-UBUNTU-SAUCE-add-vmlinux.strip-to-BOOT_TARGETS1-on-p.patch
-</span></span><span class="line"><span class="ln">3</span><span class="cl">patch -p1 &lt; 0003-UBUNTU-SAUCE-tools-hv-lsvmbus-add-manual-page.patch
-</span></span><span class="line"><span class="ln">4</span><span class="cl">patch -p1 &lt; 0004-debian-changelog.patch
-</span></span><span class="line"><span class="ln">5</span><span class="cl">patch -p1 &lt; 0005-configs-based-on-Ubuntu-4.19.0-8.9.patch
-</span></span><span class="line"><span class="ln">6</span><span class="cl">patch -p1 &lt; x360.patch
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="ln">1</span><span class="cl"><span class="n">patch</span> <span class="o">-</span><span class="n">p1</span> <span class="o">&lt;</span> <span class="mi">0001</span><span class="o">-</span><span class="n">base</span><span class="o">-</span><span class="n">packaging</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="n">patch</span> <span class="o">-</span><span class="n">p1</span> <span class="o">&lt;</span> <span class="mi">0002</span><span class="o">-</span><span class="n">UBUNTU</span><span class="o">-</span><span class="n">SAUCE</span><span class="o">-</span><span class="n">add</span><span class="o">-</span><span class="n">vmlinux</span><span class="o">.</span><span class="n">strip</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">BOOT_TARGETS1</span><span class="o">-</span><span class="n">on</span><span class="o">-</span><span class="n">p</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="n">patch</span> <span class="o">-</span><span class="n">p1</span> <span class="o">&lt;</span> <span class="mi">0003</span><span class="o">-</span><span class="n">UBUNTU</span><span class="o">-</span><span class="n">SAUCE</span><span class="o">-</span><span class="n">tools</span><span class="o">-</span><span class="n">hv</span><span class="o">-</span><span class="n">lsvmbus</span><span class="o">-</span><span class="n">add</span><span class="o">-</span><span class="n">manual</span><span class="o">-</span><span class="n">page</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="n">patch</span> <span class="o">-</span><span class="n">p1</span> <span class="o">&lt;</span> <span class="mi">0004</span><span class="o">-</span><span class="n">debian</span><span class="o">-</span><span class="n">changelog</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="n">patch</span> <span class="o">-</span><span class="n">p1</span> <span class="o">&lt;</span> <span class="mi">0005</span><span class="o">-</span><span class="n">configs</span><span class="o">-</span><span class="n">based</span><span class="o">-</span><span class="n">on</span><span class="o">-</span><span class="n">Ubuntu</span><span class="o">-</span><span class="mf">4.19</span><span class="o">.</span><span class="mi">0</span><span class="o">-</span><span class="mf">8.9</span><span class="o">.</span><span class="n">patch</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="n">patch</span> <span class="o">-</span><span class="n">p1</span> <span class="o">&lt;</span> <span class="n">x360</span><span class="o">.</span><span class="n">patch</span>
 </span></span></code></pre></div><p>Note that the file names will probably change depending on the kernel version you are patching. With that done it's time to make the kernel config from current Kernel config:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">yes &#34;&#34; | make oldconfig
 </span></span></code></pre></div><p>And then, let's make the kernel!</p>
@@ -607,6 +605,14 @@
 
   </div>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'XXXXXXXXXX');
+</script>
+<script type="text/javascript">
 
   <script type="text/javascript">
   var sc_project=12753264; 
@@ -628,7 +634,7 @@
 
     <script type="text/javascript" src="https://greycloak.com/en/js/bundle.a7e29fae500d5aa0b137ab7f9ecfd16d0097f9aa642ebaa2e50088be505404a8995af89844f4456b23bc5b90b9387e95dc08247598a2bd7d816f88bfe4d7bceb.js" integrity="sha512-p&#43;KfrlANWqCxN6t/ns/RbQCX&#43;apkLrqi5QCIvlBUBKiZWviYRPRFayO8W5C5OH6V3AgkdZiivX2Bb4i/5Ne86w==" crossorigin="anonymous"></script>
 
-  <script src="https://greycloak.com/js/search.min.8a7989a3155833e5032fb922caab1294cb74fa70ec9dd2d720a230b8405586447e2e017e6eff69c3d91da71078850ced1543f1cb71d2822e4faab818381c4f1e.js"></script>
+  <script src="https://greycloak.com/js/search.min.b2a463ceaa5916a14cb61be31213359b6c718a66e487a48ba14cc45daee5fa8f5118586a88f7bac53879dbd3f2c03ab45b8a33bf7e95151c30f5bd851ad3cd0a.js"></script>
 
     
   </body>
