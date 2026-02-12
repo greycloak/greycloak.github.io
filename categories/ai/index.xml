@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Greycloak</title><link>https://greycloak.com/categories/ai/</link><description>Recent content in AI on Greycloak</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2023, Vince Wadhwani; all rights reserved.</copyright><lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://greycloak.com/categories/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Running Stable Diffusion Locally on Fedora 43 (Framework Laptop) with sd.cpp-webui</title><link>https://greycloak.com/post/2026-02-12-installing-a-local-image-llm/</link><pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate><guid>https://greycloak.com/post/2026-02-12-installing-a-local-image-llm/</guid><description>
+&lt;h1 id="running-stable-diffusion-locally-on-fedora-43-framework-laptop-with-sdcpp-webui"&gt;Running Stable Diffusion Locally on Fedora 43 (Framework Laptop) with sd.cpp-webui&lt;/h1&gt;
+&lt;p&gt;If you’ve got a Fedora 43 laptop (especially something like a Framework with Intel integrated graphics) and you want to generate AI images locally, you can do it — without CUDA, without NVIDIA drivers, and without the heavyweight PyTorch + AUTOMATIC1111 setup.&lt;/p&gt;
+&lt;p&gt;This guide walks through the exact steps that worked for me using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;stable-diffusion.cpp&lt;/strong&gt; (fast C++ backend)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sd.cpp-webui&lt;/strong&gt; (simple Gradio-based browser UI)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stable Diffusion v1.5 safetensors model&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.12&lt;/strong&gt; (important!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This setup is CPU-friendly and runs well on modern laptops.&lt;/p&gt;</description></item></channel></rss>
