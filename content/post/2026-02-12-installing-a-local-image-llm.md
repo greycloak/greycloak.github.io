@@ -1,13 +1,14 @@
 ---
-title: "Running Stable Diffusion Locally on Fedora 43 (Framework Laptop) with sd.cpp-webui"
+layout: post
+title: "Running Stable Diffusion Locally on Fedora 43 with no GPU"
 date: 2026-02-12
-description: "A step-by-step guide to generating AI images locally on Fedora 43 using stable-diffusion.cpp and sd.cpp-webui — no NVIDIA GPU required."
+thumbnail: /images/stable-diffusion.png
+featureImage: /images/stable-diffusion.png
+featureImageAlt: "Stable Diffusion rings"
 tags: ["AI", "Stable Diffusion", "Fedora", "Linux", "Framework Laptop", "Image Generation"]
 categories: ["AI", "Linux"]
 draft: false
 ---
-
-# Running Stable Diffusion Locally on Fedora 43 (Framework Laptop) with sd.cpp-webui
 
 If you’ve got a Fedora 43 laptop (especially something like a Framework with Intel integrated graphics) and you want to generate AI images locally, you can do it — without CUDA, without NVIDIA drivers, and without the heavyweight PyTorch + AUTOMATIC1111 setup.
 
