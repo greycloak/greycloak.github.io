@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codex on Greycloak</title><link>https://greycloak.com/tags/codex/</link><description>Recent content in Codex on Greycloak</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2023, Vince Wadhwani; all rights reserved.</copyright><lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://greycloak.com/tags/codex/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating and using Postgres MCP with Codex</title><link>https://greycloak.com/post/2026-02-20-creating-and-using-mcp-postres/</link><pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate><guid>https://greycloak.com/post/2026-02-20-creating-and-using-mcp-postres/</guid><description>
+&lt;h1 id="creating-and-using-mcp-postgres"&gt;Creating and Using MCP Postgres&lt;/h1&gt;
+&lt;p&gt;If you are using Codex and a Postgres database, adding a Postgres MCP server gives the agent direct DB tooling for schema inspection, query support, and migration verification.&lt;/p&gt;
+&lt;p&gt;This guide shows how to install it, start it, and stop it.&lt;/p&gt;
+&lt;h2 id="why-use-postgres-mcp"&gt;Why Use Postgres MCP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lets Codex use DB tools directly instead of guessing from source files.&lt;/li&gt;
+&lt;li&gt;Speeds up debugging and migration checks.&lt;/li&gt;
+&lt;li&gt;Helps verify real database state during task execution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex&lt;/code&gt; CLI installed and authenticated.&lt;/li&gt;
+&lt;li&gt;Node.js and &lt;code&gt;npx&lt;/code&gt; available.&lt;/li&gt;
+&lt;li&gt;A running Postgres instance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For Docker-based Postgres, make sure the container is up and port-mapped:&lt;/p&gt;</description></item></channel></rss>
