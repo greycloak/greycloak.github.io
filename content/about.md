@@ -6,7 +6,7 @@ aliases = ["about-us", "about-me", "contact"]
 author = "Vince Wadhwani"
 +++
 
-I'm Vince Wadhwani. For the last 25_ years I've been running [Econify](https://www.econify.com), a software consulting company in New York, and before that I worked at Apple on WiFi and the iMac.
+I'm Vince Wadhwani. For the last 25 years I've been running [Econify](https://www.econify.com), a software consulting company in New York, and before that I worked at Apple on WiFi and the iMac.
 
 I think success is not how much you accumulate. It's how well you live, what you create, and how much better you leave the world for others.
 
