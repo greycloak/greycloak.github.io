@@ -2,9 +2,9 @@
 layout: post
 title: "Launching Vim like gVim on linux"
 date: 2026-02-12
-thumbnail: /images/stable-diffusion.png
-featureImage: /images/stable-diffusion.png
-featureImageAlt: "Stable Diffusion rings"
+thumbnail: /images/vim-gvim.png
+featureImage: /images/vim-gvim.png
+featureImageAlt: "Line drawing of an app window with a terminal prompt"
 tags: ["vim", "gvim", "Fedora", "Linux"]
 categories: ["Linux"]
 draft: false

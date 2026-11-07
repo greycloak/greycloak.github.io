@@ -2,9 +2,9 @@
 layout: post
 title: "Running Stable Diffusion Locally on Fedora 43 with no GPU"
 date: 2026-02-12
-thumbnail: /images/stable-diffusion.png
-featureImage: /images/stable-diffusion.png
-featureImageAlt: "Stable Diffusion rings"
+thumbnail: /images/sd-fedora.png
+featureImage: /images/sd-fedora.png
+featureImageAlt: "Line drawing of a laptop showing a landscape picture, with a paintbrush"
 tags: ["AI", "Stable Diffusion", "Fedora", "Linux", "Framework Laptop", "Image Generation"]
 categories: ["AI", "Linux"]
 draft: false

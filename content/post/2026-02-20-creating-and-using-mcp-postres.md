@@ -2,9 +2,9 @@
 layout: post
 title: "Creating and using Postgres MCP with Codex"
 date: 2026-02-12
-thumbnail: /images/stable-diffusion.png
-featureImage: /images/stable-diffusion.png
-featureImageAlt: "Stable Diffusion rings"
+thumbnail: /images/postgres-mcp.png
+featureImage: /images/postgres-mcp.png
+featureImageAlt: "Line drawing of an elephant plugged into a small device"
 tags: ["ai", "codex", "Fedora", "Linux"]
 categories: ["ai"]
 draft: false
