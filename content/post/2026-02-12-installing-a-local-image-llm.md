@@ -8,6 +8,7 @@ featureImageAlt: "Line drawing of a laptop showing a landscape picture, with a p
 tags: ["AI", "Stable Diffusion", "Fedora", "Linux", "Framework Laptop", "Image Generation"]
 categories: ["AI", "Linux"]
 draft: false
+summary: "You can generate AI images locally on a Fedora 43 laptop with no GPU. I used stable-diffusion.cpp and a simple browser UI on my Framework, and these are the exact steps that worked."
 ---
 
 If you’ve got a Fedora 43 laptop (especially something like a Framework with Intel integrated graphics) and you want to generate AI images locally, you can do it — without CUDA, without NVIDIA drivers, and without the heavyweight PyTorch + AUTOMATIC1111 setup.

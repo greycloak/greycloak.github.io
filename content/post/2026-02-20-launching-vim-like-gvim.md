@@ -8,6 +8,7 @@ featureImageAlt: "Line drawing of an app window with a terminal prompt"
 tags: ["vim", "gvim", "Fedora", "Linux"]
 categories: ["Linux"]
 draft: false
+summary: "gVim kept fighting Wayland on Fedora 43, so I dropped it and set up Vim to open in its own terminal window and behave like a regular GNOME app. Here's the step-by-step setup."
 ---
 
 If you’ve recently upgraded to Fedora 43, you might have noticed that gvim (the GTK-based GUI for Vim) feels a bit like a relic. It often struggles with Wayland, requiring X11 overrides just to launch.

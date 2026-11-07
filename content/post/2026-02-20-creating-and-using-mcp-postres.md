@@ -8,9 +8,8 @@ featureImageAlt: "Line drawing of an elephant plugged into a small device"
 tags: ["ai", "codex", "Fedora", "Linux"]
 categories: ["ai"]
 draft: false
+summary: "How I gave Codex direct access to a Postgres database through an MCP server, so it can check the schema, run queries and confirm migrations instead of guessing from source files. Covers installing it, checking it's registered, starting it and turning it off."
 ---
-
-# Creating and Using MCP Postgres
 
 If you are using Codex and a Postgres database, adding a Postgres MCP server gives the agent direct DB tooling for schema inspection, query support, and migration verification.
 
