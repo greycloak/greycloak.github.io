@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating and using Postgres MCP with Codex"
-date: 2026-02-12
+date: 2026-02-20
 thumbnail: /images/postgres-mcp.png
 featureImage: /images/postgres-mcp.png
 featureImageAlt: "Line drawing of an elephant plugged into a small device"

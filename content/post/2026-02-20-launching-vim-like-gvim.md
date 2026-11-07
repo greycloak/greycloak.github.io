@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Launching Vim like gVim on linux"
-date: 2026-02-12
+date: 2026-02-20
 thumbnail: /images/vim-gvim.png
 featureImage: /images/vim-gvim.png
 featureImageAlt: "Line drawing of an app window with a terminal prompt"
