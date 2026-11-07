@@ -6,6 +6,10 @@ aliases = ["about-us", "about-me", "contact"]
 author = "Vince Wadhwani"
 +++
 
-Greycloak is a personal blog about technology, business, culture, and doing the right thing. It exists primarily as a repository of tutorials for my own benefit, but occasionally I write opinions on various other things. I hope you find it useful! Feel free to share or copy anything here but leave a link to the original material and give credit where it's due.
+I'm Vince Wadhwani. For the last 25_ years I've been running [Econify](https://www.econify.com), a software consulting company in New York, and before that I worked at Apple on WiFi and the iMac.
 
-Greycloak is maintained by Vince Wadhwani. Contacting me is easiest via [twitter](https://www.twitter.com/vwadhwani) or <a rel="me" href="https://masto.nyc/@vincew">Mastodon</a>
+I think success is not how much you accumulate. It's how well you live, what you create, and how much better you leave the world for others.
+
+There are also a lot of old Linux tutorials here. Most started as notes to myself.. AI has eaten up what might now be useful but that doesn't mean you won't see something I hack on still show up here. With regards to all the content, feel free to share or copy anything, just please link back to the original and give credit where it's due.
+
+The easiest way to reach me is on <a rel="me" href="https://masto.nyc/@vincew">Mastodon</a>
