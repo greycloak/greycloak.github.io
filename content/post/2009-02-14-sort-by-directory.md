@@ -2,10 +2,11 @@
 layout: post
 title:  "Quick Tip: Sort by directory size in linux"
 date:   2009-02-14 23:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/linux.png
 tags:
+ - tutorial
  - linux
 ---
 

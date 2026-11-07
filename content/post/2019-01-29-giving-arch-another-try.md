@@ -2,7 +2,7 @@
 layout: post
 title:  "Giving Archlinux Another Try"
 date:   2019-01-29 16:00:00 +0530
-categories: blog
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/ArchLinux.png
 tags:

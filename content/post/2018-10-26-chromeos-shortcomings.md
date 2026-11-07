@@ -2,7 +2,7 @@
 layout: post
 title:  "ChromeOS Shortcomings"
 date:   2018-10-26 10:09:56 +0530
-categories: blog
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/chromeos.jpg
 tags:

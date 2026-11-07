@@ -2,10 +2,11 @@
 layout: post
 title:  "Setting up PostgreSQL on Debian Buster"
 date:   2018-07-07 03:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/linux.png
 tags:
+ - tutorial
  - debian
  - postgresql
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Benefits of Cassette Culture"
 date:   2022-05-01 12:00:00 +0530
-categories: blog
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: https://d30y9cdsu7xlg0.cloudfront.net/png/2175-200.png
 

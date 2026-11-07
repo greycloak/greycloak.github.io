@@ -2,10 +2,11 @@
 layout: post
 title:  "Quick Tip: Exporting to CSV from Rails console"
 date:   2013-10-08 10:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/rails.png
 tags:
+ - tutorial
  - ruby
  - rails
  - git

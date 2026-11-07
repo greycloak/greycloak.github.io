@@ -2,10 +2,11 @@
 layout: post
 title:  "Getting touchscreen events working with Firefox"
 date:   2019-02-01 12:00:00 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/firefox.png
 tags:
+ - tutorial
  - linux
  - firefox
 ---

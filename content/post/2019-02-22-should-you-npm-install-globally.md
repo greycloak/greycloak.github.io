@@ -2,10 +2,11 @@
 layout: post
 title:  "Should you npm install globally?"
 date:   2019-02-22 12:00:00 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/npm.png
 tags:
+ - tutorial
  - nodejs
  - npm
  - linux

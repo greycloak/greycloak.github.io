@@ -2,10 +2,11 @@
 layout: post
 title:  "Quick Tip: Set up a Reverse SSH Tunnel"
 date:   2009-06-10 23:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/linux.png
 tags:
+ - tutorial
  - linux
  - ssh
 ---

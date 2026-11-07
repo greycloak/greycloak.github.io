@@ -2,10 +2,11 @@
 layout: post
 title:  "Swapping Control & Alt in Linux"
 date:   2009-04-19 23:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/linux.png
 tags:
+ - tutorial
  - linux
  - xorg
 ---

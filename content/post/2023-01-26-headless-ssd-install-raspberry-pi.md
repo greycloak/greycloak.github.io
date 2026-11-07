@@ -2,7 +2,7 @@
 layout: post
 title:  "Headless SSD install on Raspberry Pi 4B"
 date:   2023-01-26 12:00:00 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/raspberry-pi.jpg
 
@@ -12,6 +12,7 @@ featureImageCap: "An SSD will increase your IO performance and increase reliabil
 shareImage: /images/raspberry-pi.jpg
 
 tags:
+ - tutorial
  - linux
  - raspberrypi
  - storage

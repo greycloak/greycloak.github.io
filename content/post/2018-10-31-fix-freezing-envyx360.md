@@ -2,10 +2,11 @@
 layout: post
 title:  "Fix Occasional Freezing on the HP Envy X360"
 date:   2018-10-31 10:09:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/linux.png
 tags:
+ - tutorial
  - linux
  - ubuntu
  - envyx360

@@ -2,7 +2,7 @@
 layout: post
 title:  "Ten Things I Love About ArchLinux"
 date:   2007-05-31 10:34:56 +0530
-categories: blog
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/ArchLinux.png
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title:  "Joplin CLI on Raspberry Pi 4"
 date:   2022-08-05 12:00:00 +0530
-categories: blog
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/terminal-icon.png
 

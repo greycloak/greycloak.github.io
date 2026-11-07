@@ -6,7 +6,7 @@ thumbnail: /images/postgres-mcp.png
 featureImage: /images/postgres-mcp.png
 featureImageAlt: "Line drawing of an elephant plugged into a small device"
 tags: ["ai", "codex", "Fedora", "Linux"]
-categories: ["ai"]
+categories: ["Curiosity & Creation"]
 draft: false
 summary: "How I gave Codex direct access to a Postgres database through an MCP server, so it can check the schema, run queries and confirm migrations instead of guessing from source files. Covers installing it, checking it's registered, starting it and turning it off."
 ---

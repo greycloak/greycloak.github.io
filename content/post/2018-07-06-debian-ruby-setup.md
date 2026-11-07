@@ -2,10 +2,11 @@
 layout: post
 title:  "Setting up Debian Buster for Ruby Development"
 date:   2018-07-06 23:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/ruby.png
 tags:
+ - tutorial
  - debian
  - ruby
  - git

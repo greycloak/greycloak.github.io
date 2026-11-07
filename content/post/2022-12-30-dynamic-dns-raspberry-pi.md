@@ -2,7 +2,7 @@
 layout: post
 title:  "Free Dynamic DNS with Namecheap for Raspberry Pi"
 date:   2022-12-30 12:00:00 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/dns-icon.png
 
@@ -12,6 +12,7 @@ featureImageCap: "Dynamic DNS with Namecheap is fast and easy"
 shareImage: /images/dns-icon.png
 
 tags:
+ - tutorial
  - linux
  - raspberrypi
  - dns

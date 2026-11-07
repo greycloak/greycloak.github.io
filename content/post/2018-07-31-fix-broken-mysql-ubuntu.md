@@ -2,10 +2,11 @@
 layout: post
 title:  "Reinstall a broken MySQL 5.7 Ubuntu Xenial"
 date:   2018-07-31 10:34:56 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/mysql.png
 tags:
+ - tutorial
  - linux
  - ubuntu
  - mysql

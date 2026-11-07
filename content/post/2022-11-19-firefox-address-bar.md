@@ -2,7 +2,7 @@
 layout: post
 title:  "Make Firefox address bar work like Chrome"
 date:   2022-11-19 12:00:00 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/firefox.png
 
@@ -12,6 +12,7 @@ featureImageCap: "Firefox's default settings for search don't solve the problem"
 shareImage: /images/posts/Firefox-Searchbar.png
 
 tags:
+ - tutorial
  - linux
  - firefox
 ---

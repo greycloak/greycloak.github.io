@@ -2,10 +2,11 @@
 layout: post
 title:  "Patch the Ubuntu Kernel"
 date:   2018-11-01 16:00:00 +0530
-categories: tutorial
+categories: ["Curiosity & Creation"]
 author:     vince
 thumbnail: /images/ubuntu.png
 tags:
+ - tutorial
  - linux
  - ubuntu
  - kernel
