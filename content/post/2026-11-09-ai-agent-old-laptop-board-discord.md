@@ -4,7 +4,7 @@ date: 2026-11-09
 summary: "My first try at a personal AI agent on a Raspberry Pi was more hassle than it was worth. My second, Hermes on a spare Framework mainboard, now runs my lights, music, plants, newsletter and a lot of my day. Here's how it's set up, what it saves me, and the rules I keep it on."
 categories: ["Curiosity & Creation"]
 tags: ["AI", "AI agents", "Hermes Agent", "self-hosted", "Framework Laptop", "Discord"]
-draft: true
+draft: false
 thumbnail: /images/agent-board.png
 featureImage: /images/agent-board.png
 featureImageAlt: "Line drawing of a computer chip with a chat bubble"
