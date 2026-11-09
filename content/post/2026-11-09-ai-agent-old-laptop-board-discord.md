@@ -16,6 +16,8 @@ A few months later I gave [Hermes](https://hermes-agent.nousresearch.com) a try 
 
 The biggest win for me was using Discord as the main way to talk to it and breaking everything into personal and work channels. I'm able to assign different models to different channels and keep work and personal notes in separate places.
 
+![My Discord setup: channels down the left, threads in the middle, one thread open on the right](/images/agent-discord-channels.png)
+
 ## The channels
 
 **#setup** is where I ask it to build new things. It can now manage my Lutron lights, my Sonos system and music library, install local models for testing, and connect to various MCPs. This is also where I had it move itself from the Pi to a Framework mainboard.
