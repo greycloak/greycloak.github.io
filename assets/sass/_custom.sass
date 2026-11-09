@@ -78,3 +78,12 @@
     padding: 0.75rem
     &_turn
       max-width: 94%
+
+// Posts: one centered reading column (~70 characters per line), NYT-style.
+// Pages opt in via singleColumn + sidebar=false (cascaded from content/post/_index.md).
+.content:not(.grid-inverse) > .post_content
+  max-width: 42rem
+  margin: 0 auto
+  .post_body
+    font-size: 1.15rem
+    line-height: 1.75
