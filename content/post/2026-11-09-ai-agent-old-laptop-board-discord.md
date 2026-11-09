@@ -106,6 +106,8 @@ None of that did real damage, but I only found it because I was paying attention
 
 If you've got some spare, always-on hardware around, then definitely. If it can run on an old 4GB Pi 4 with a cloud model and be useful, it can most likely run on whatever you have.
 
-## What I have yet to try
+## What's next
 
-Still pending is improving memory management beyond Obsidian. Maybe Hindsight or something else. I also haven't seen how the personality and effectiveness of my assistant change depending on the backend. Right now it's almost exclusively Anthropic, but I don't know yet how it behaves if I switch to OpenAI or an open model. I'm looking forward to experimenting and getting a handle on all of it but so far I'm much happier in this play space than on Grokbot, Muse, Dots, or Duet.
+I want better memory than a folder of Obsidian notes, maybe Hindsight, maybe something else. I also want to see how much of its personality survives a switch to OpenAI or an open model, since right now it's almost all Anthropic. If it holds up, the model becomes a part I can swap, and that gets me out of the choice I started with.
+
+If you're running something similar, I'd like to hear what's working for you. I'm [@vincew@masto.nyc](https://masto.nyc/@vincew).
