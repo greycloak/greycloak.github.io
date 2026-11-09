@@ -1,0 +1,5 @@
+{{- $who := .Get 0 | default "agent" -}}
+<div class="chat_turn chat_turn-{{ $who }}">
+  <div class="chat_who">{{ if eq $who "me" }}Me{{ else if eq $who "note" }}{{ else }}{{ .Get 1 | default "Agent" }}{{ end }}</div>
+  <div class="chat_text">{{ .Inner | markdownify }}</div>
+</div>

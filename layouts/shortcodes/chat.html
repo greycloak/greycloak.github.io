@@ -1,0 +1,4 @@
+<figure class="chat">
+  <div class="chat_log">{{ .Inner }}</div>
+  {{- with .Get "caption" }}<figcaption class="chat_caption">{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

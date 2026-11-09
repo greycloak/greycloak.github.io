@@ -10,3 +10,71 @@
       width: 100%
       height: 100%
       object-fit: contain
+
+// Chat transcript block for posts: {{< chat >}} with {{< say me >}} / {{< say agent >}} / {{< say note >}} turns
+.chat
+  margin: 2rem 0
+  padding: 1.25rem
+  border: 1px solid var(--table-border)
+  border-radius: 0.75rem
+  background: var(--translucent)
+  &_log
+    display: flex
+    flex-direction: column
+    gap: 0.9rem
+  &_turn
+    max-width: 85%
+    padding: 0.7rem 1rem
+    border-radius: 0.9rem
+    font-size: 0.95em
+    line-height: 1.55
+    p, ul
+      margin: 0.35rem 0 !important
+    > .chat_text > :first-child
+      margin-top: 0 !important
+    > .chat_text > :last-child
+      margin-bottom: 0 !important
+    ul
+      padding-left: 1.2rem
+    li
+      margin: 0.15rem 0
+    &-me
+      align-self: flex-end
+      background: var(--theme)
+      color: #fff
+      border-bottom-right-radius: 0.25rem
+      a
+        color: #fff
+    &-agent
+      align-self: flex-start
+      background: var(--post-bg)
+      border: 1px solid var(--table-border)
+      border-bottom-left-radius: 0.25rem
+    &-note
+      align-self: center
+      max-width: 90%
+      padding: 0.2rem 0.5rem
+      font-size: 0.85em
+      font-style: italic
+      opacity: 0.75
+      text-align: center
+      .chat_who
+        display: none
+  &_who
+    font-size: 0.72em
+    font-weight: 700
+    letter-spacing: 0.05em
+    text-transform: uppercase
+    opacity: 0.75
+    margin-bottom: 0.15rem
+  &_caption
+    margin-top: 1rem
+    font-size: 0.85em
+    opacity: 0.75
+    text-align: center
+
+@media screen and (max-width: 600px)
+  .chat
+    padding: 0.75rem
+    &_turn
+      max-width: 94%
