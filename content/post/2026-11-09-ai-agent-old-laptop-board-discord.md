@@ -10,7 +10,7 @@ featureImage: /images/agent-discord-channels.png
 featureImageAlt: "My Discord setup: channels down the left, threads in the middle, one thread open on the right"
 ---
 
-For the longest time, I'd been staring down two uncomfortable options for getting on the AI assistant bandwagon. Either argue with Picoclaw for longer than it would take me to do it myself, or give a bunch of my data and money to a couple of multi-billionaires who don't have my best interest in mind.
+For the longest time, I'd been staring down two uncomfortable options for getting on the AI assistant bandwagon. Either argue with [Picoclaw](https://picoclaw.io/) for longer than it would take me to do it myself, or give a bunch of my data and money to a couple of multi-billionaires who don't have my best interest in mind.
 
 I had tried Picoclaw on a Raspberry Pi. It was an interesting experience, but it turned out to be hard mode before I was ready for it. After a few failed attempts to get it working with Resy and OpenTable and doing some scouting for me, I decided it was more hassle than it was worth and gave up.
 
@@ -20,7 +20,7 @@ The biggest win for me was using Discord as the main way to talk to it and break
 
 ## The channels
 
-**#setup** is where I ask it to build new things. It can now manage my Lutron lights, my Sonos system and music library, install local models for testing, and connect to various MCPs. This is also where I had it move itself from the Pi to a Framework mainboard.
+**#setup** is where I ask it to build new things. It can now manage my Lutron lights, my Sonos system and music library, install local models for testing, and connect to various MCPs. This is also where I had it move itself from the Pi to a [Framework mainboard](https://frame.work/products/laptop12-mainboard-13th-gen-intel-core?v=FRAPBK0005).
 
 **#work-general** connects to my work MCPs, email, Slack, calendar, Notion and note taker to give me a better view into my day and make sure I'm not forgetting anything.
 
