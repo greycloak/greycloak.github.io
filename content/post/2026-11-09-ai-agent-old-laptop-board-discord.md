@@ -6,8 +6,8 @@ categories: ["Curiosity & Creation"]
 tags: ["AI", "AI agents", "Hermes Agent", "self-hosted", "Framework Laptop", "Discord"]
 draft: false
 thumbnail: /images/agent-board.png
-featureImage: /images/agent-board.png
-featureImageAlt: "Line drawing of a computer chip with a chat bubble"
+featureImage: /images/agent-discord-channels.png
+featureImageAlt: "My Discord setup: channels down the left, threads in the middle, one thread open on the right"
 ---
 
 I had previously tried to jump on the AI agent train using Picoclaw on a Raspberry Pi. It was an interesting experience, but it turned out to be hard mode before I was ready for it. After a few failed attempts to get it working with Resy and OpenTable and doing some scouting for me, I decided it was more hassle than it was worth and gave up.
@@ -15,8 +15,6 @@ I had previously tried to jump on the AI agent train using Picoclaw on a Raspber
 A few months later I gave [Hermes](https://hermes-agent.nousresearch.com) a try and it has been a game changer. I run it on Anthropic's Claude models, with Opus for the channels that matter and Haiku for the lighter ones, and OpenRouter for image generation (Nano Banana) and as a backup in case Anthropic goes down. Hermes is excellent, and if I need something improved I just ask it.
 
 The biggest win for me was using Discord as the main way to talk to it and breaking everything into personal and work channels. I'm able to assign different models to different channels and keep work and personal notes in separate places.
-
-![My Discord setup: channels down the left, threads in the middle, one thread open on the right](/images/agent-discord-channels.png)
 
 ## The channels
 
