@@ -84,6 +84,14 @@ As a side note, I love my Framework 12 laptop. When I upgraded its mainboard, th
 
 **5. Everything else.** It pulls reservations, train times and the weather so I don't have to. It runs the pipeline behind our weekly AI newsletter. It even generates images locally on the CPU. (The thumbnails on this blog were made that way using Z-Image Turbo.)
 
+## What it costs
+
+The mainboard was a sunk cost from my laptop upgrade. The extra RAM and SSD were about $550, and I run it on a $20/month Anthropic plan.
+
+On the other side, it's replaced Notion ($2,500 a year), Pandora ($12 a month) and my iCloud storage, now that my photos are mirrored to Nextcloud. That's roughly $2,650 a year saved against $240 a year spent, so the hardware paid for itself in under three months.
+
+The part I can't put a price on is everything else. It remembers what I forget, it turns a vague idea like a day in Cold Spring into a plan with train times, and it answers the questions I'd never have taken the time to look up. That's the real return.
+
 ## Guardrails
 
 So far, nothing has broken or done anything catastrophic. It does have delete access to my Google Drive and there are a few other areas where I am taking a risk. I'll admit I need to add some more guardrails. But other than that, the important thing is to have trusted sources and keep write access away. My agent drafts, and I send. It doesn't book, buy, post or email as me without my OK, and an OK for one thing isn't an OK for the next. Outside of Google Drive, most of my accounts are connected read-only.
