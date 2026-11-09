@@ -96,7 +96,7 @@ The part I can't put a price on is everything else. It remembers what I forget, 
 
 ## Guardrails
 
-Nothing catastrophic has happened, but it does make mistakes, and they tend to be quiet ones. A few times it finished a long job and the results never showed up, because the message saying it was done got dropped. Now it posts its own results to Discord. A reboot once silently killed a job I'd scheduled for that night, so scheduled jobs now live in files that survive a restart. And while merging its changes to this blog, it overwrote an edit I'd made to my About page, which we had to restore.
+Nothing catastrophic has happened, but it does make mistakes, and they tend to be quiet ones. A couple of times it finished a long job and the results never showed up, because the message saying it was done got dropped. Now it posts its own results to Discord. A reboot once silently killed a job I'd scheduled for that night, so scheduled jobs now live in files that survive a restart. And while merging its changes to this blog, it overwrote an edit I'd made to my About page, which we had to restore.
 
 None of that did real damage, but I only found it because I was paying attention. It also has delete access to my Google Drive, and there are a few other places where I'm taking a risk, so I need more guardrails. What has held up best is keeping write access away. My agent drafts, and I send. It doesn't book, buy, post or email as me without my OK, and an OK for one thing isn't an OK for the next. Outside of Google Drive, most of my accounts are connected read-only.
 
