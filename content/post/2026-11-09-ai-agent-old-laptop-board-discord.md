@@ -10,7 +10,9 @@ featureImage: /images/agent-discord-channels.png
 featureImageAlt: "My Discord setup: channels down the left, threads in the middle, one thread open on the right"
 ---
 
-I had previously tried to jump on the AI agent train using Picoclaw on a Raspberry Pi. It was an interesting experience, but it turned out to be hard mode before I was ready for it. After a few failed attempts to get it working with Resy and OpenTable and doing some scouting for me, I decided it was more hassle than it was worth and gave up.
+For the longest time, I'd been staring down two uncomfortable options for getting on the AI assistant bandwagon. Either argue with Picoclaw for longer than it would take me to do it myself, or give a bunch of my data and money to a couple of multi-billionaires who don't have my best interest in mind.
+
+I had tried Picoclaw on a Raspberry Pi. It was an interesting experience, but it turned out to be hard mode before I was ready for it. After a few failed attempts to get it working with Resy and OpenTable and doing some scouting for me, I decided it was more hassle than it was worth and gave up.
 
 A few months later I gave [Hermes](https://hermes-agent.nousresearch.com) a try and it has been a game changer. I run it on Anthropic's Claude models, with Opus for the channels that matter and Haiku for the lighter ones, and OpenRouter for image generation (Nano Banana) and as a backup in case Anthropic goes down. Hermes is excellent, and if I need something improved I just ask it.
 
