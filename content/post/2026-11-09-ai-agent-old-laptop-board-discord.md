@@ -28,6 +28,34 @@ The biggest win for me was using Discord as the main way to talk to it and break
 
 There are a lot more channels. The beauty is that each channel can use a different model, so something critical like my finances gets Opus while everyday stuff runs on the cheaper Haiku. I even have an experimental channel with a local LLM and image model.
 
+## What it looks like
+
+Reservations were where Picoclaw gave up, so this is the test I care about. I wanted lunch or dinner for two at the Roundhouse in Beacon on a Saturday. It checked Tock, found it fully booked, and pointed me to Hudson House River Inn in Cold Spring as the closest match. Here's the rest, trimmed:
+
+**Me:** If we go to Cold Spring, what else is there to do there? Can you build me a day trip from Manhattan round trip by train?
+
+**Agent:** Here's a plan for Saturday, Oct 31, by train from Grand Central. Train times come from Metro-North's published schedule for that date.
+
+- 8:56am leave Grand Central, arrive Cold Spring 10:16. Sit on the left side for the river view.
+- 10:30–1:30, hike Bull Hill. The Washburn trailhead is about a 15-minute walk from the station.
+- 3:00–5:30, Main Street and the river. Antique shops and galleries, then Dockside Park, a lawn on the water facing Storm King. Sunset is around 6.
+- 5:30pm, Hudson House River Inn, River Room. The inn is a 2-minute walk from the platform.
+- 7:24pm train home, into Grand Central at 8:51.
+
+A Saturday in October is packed in Cold Spring, and Halloween adds trick-or-treaters on Main Street.
+
+*I asked to swap dinner for lunch there. It reworked the day around a 1:45 table in the River Room.*
+
+**Me:** Which view is better? Bull Hill short loop or Foundry Preserve? Ideally I'd like to be back by 1p for lunch.
+
+**Agent:** Bull Hill, and it isn't close. The short loop climbs to open rock ledges looking over the Hudson to Storm King and down toward West Point. The Foundry Preserve is a pleasant walk through woods, but you barely see the river. Being back by 1 is tight on the 8:56 train. Take the 8:31am instead. That puts you on the trail by about 10:05 and back in the village around 12:30.
+
+**Me:** What are my best options to have a snack before the 1:45 reservation (I made it) and how do I deal with clothes suitable for both hiking and lunch?
+
+**Agent:** Cold Spring Coffeehouse on Main St. You walk right past it from the train. Grab something to carry and eat it at the overlook. Wear clothes that pass at lunch: trail runners, dark pants with some stretch, a light jacket. Pack a fresh shirt and change in the restroom at Hudson House. Since it's an inn, ask them to hold your bag. Worth a call Friday.
+
+It offered to book Hudson House at every step. I booked it myself, which is how I want it. We had a great time.
+
 ## Why self-host
 
 Eventually I think local models will be capable enough to handle my files without sending them up to the cloud, and I'd like to be ready when that happens. As mentioned, I already run a few small models locally for testing.
