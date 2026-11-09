@@ -68,7 +68,9 @@ It offered to book Hudson House at every step. I booked it myself, which is how 
 
 ## Why self-host
 
-Eventually I think local models will be capable enough to handle my files without sending them up to the cloud, and I'd like to be ready when that happens. As mentioned, I already run a few small models locally for testing.
+Self-hosted doesn't mean private, at least not yet. Everything I ask still goes to Anthropic, along with whatever files it reads to answer me. What I own is everything around the model: its memory, the skills it has learned, my notes, my files and the hardware. If Anthropic changes its prices or terms, I can point it at a different model and keep all of that.
+
+Eventually I think local models will be good enough to handle my files without sending them to the cloud, and I'd like to be ready when that happens. I already run a few small ones here for testing.
 
 As a side note, I love my Framework 12 laptop. When I upgraded its mainboard, the original i5 board became the agent's new home, replacing the Pi. The setup also uses Nextcloud for file storage, so a lot of my data is local and accessible to Hermes.
 
@@ -94,12 +96,13 @@ The part I can't put a price on is everything else. It remembers what I forget, 
 
 ## Guardrails
 
-So far, nothing has broken or done anything catastrophic. It does have delete access to my Google Drive and there are a few other areas where I am taking a risk. I'll admit I need to add some more guardrails. But other than that, the important thing is to have trusted sources and keep write access away. My agent drafts, and I send. It doesn't book, buy, post or email as me without my OK, and an OK for one thing isn't an OK for the next. Outside of Google Drive, most of my accounts are connected read-only.
+Nothing catastrophic has happened, but it does make mistakes, and they tend to be quiet ones. A few times it finished a long job and the results never showed up, because the message saying it was done got dropped. Now it posts its own results to Discord. A reboot once silently killed a job I'd scheduled for that night, so scheduled jobs now live in files that survive a restart. And while merging its changes to this blog, it overwrote an edit I'd made to my About page, which we had to restore.
 
+None of that did real damage, but I only found it because I was paying attention. It also has delete access to my Google Drive, and there are a few other places where I'm taking a risk, so I need more guardrails. What has held up best is keeping write access away. My agent drafts, and I send. It doesn't book, buy, post or email as me without my OK, and an OK for one thing isn't an OK for the next. Outside of Google Drive, most of my accounts are connected read-only.
 
 ## Is it worth it?
 
-If you've got some spare, always-on hardware around, then definitely. If it can run on an old 4GB Pi 4 with a cloud model and be useful, it can most likely run on whatever you have. You're investing in memory, skills, and habits that you can keep no matter what OpenAI, Anthropic, Google, Meta or any other frontier provider changes underneath you. 
+If you've got some spare, always-on hardware around, then definitely. If it can run on an old 4GB Pi 4 with a cloud model and be useful, it can most likely run on whatever you have.
 
 ## What I have yet to try
 
