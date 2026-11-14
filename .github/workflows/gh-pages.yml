@@ -22,7 +22,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.169.0'  # pinned: 0.170.0 needs Dart Sass, which the theme's css.Sass call doesn't have here
           extended: true
 
       - name: Build
