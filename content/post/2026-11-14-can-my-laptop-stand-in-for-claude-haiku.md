@@ -7,6 +7,8 @@ categories: ["Curiosity & Creation"]
 tags: ["AI", "local LLM", "llama.cpp", "Qwen", "MCP", "self-hosted"]
 draft: false
 thumbnail: /images/local-llm-laptop.png
+featureImage: /images/local-llm-jazz-chat.png
+featureImageAlt: "My local Qwen3 answering a request to find jazz on December 11 with reservations: 4,407 tokens in 1 minute 4 seconds at 68 tokens per second."
 ---
 
 Everything my [Hermes agent]({{< relref "2026-11-09-ai-agent-old-laptop-board-discord.md" >}}) does still goes through Anthropic first. In that post I said I expected local models to eventually get good enough to handle my files without sending them to the cloud. This week I wanted to see how close they are today, using the Framework 12 laptop I already have. It has no graphics card, and with a local model nothing leaves the machine unless I ask it to search the web.
@@ -162,7 +164,7 @@ The real cost is memory. While the model is loaded it holds about 17 GB as GPU m
 | Web search | 1.5 to 2.7 minutes |
 | Browser | About 3.3 minutes |
 
-My final test was using it to find jazz venues for December 11th where I could make a resevation and it nailed it in 3m 29s!
+My final test was using it to find jazz venues for December 11th where I could make a reservation and it nailed it in 3m 29s!
 
 ## So, is it worth it?
 
